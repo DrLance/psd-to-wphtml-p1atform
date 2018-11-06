@@ -1,0 +1,167 @@
+.header-text {
+  font-size: 30px;
+  font-weight: 600;
+  color: #30bbfb;
+  margin-top: 39px;
+}
+
+.page-header-text {
+  color: var(--main-color);
+  font-weight: bold;
+  font-family: var(--font-text);
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.carousel-inner {
+  height: 388px;
+}
+
+.carousel-inner img {
+  height: 388px;
+}
+
+.carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.container-text span {
+  font-family: var(--font-text);
+  font-size: 16px;
+}
+
+.carousel-indicators .active {
+  background-color: #30bbfb;
+}
+
+.background-block-develop {
+  background-color: #bbe2f3;
+  height: 254px;
+  width: 48%;
+
+  & span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--font-text);
+  }
+
+  & .site {
+    margin-left: 57px;
+    margin-top: 30px;
+  }
+
+  & img {
+    position: relative;
+    left: 60%;
+    bottom: -5%;
+  }
+}
+
+.background-block-audit {
+  background-color: #bbe2f3;
+  height: 149px;
+  width: 100%;
+
+  & span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--font-text);
+  }
+
+  & .site {
+    margin-left: 57px;
+    margin-top: 30px;
+  }
+
+  & img {
+    position: relative;
+    left: 60%;
+    bottom: 20%;
+  }
+}
+
+.background-block-seo {
+  background-color: #bbe2f3;
+  height: 230px;
+  width: 100%;
+  margin-top: 29px;
+
+  & span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--font-text);
+  }
+
+  & .site {
+    margin-left: 57px;
+    margin-top: 30px;
+  }
+
+  & img {
+    position: relative;
+    left: 50%;
+    bottom: -25%;
+  }
+}
+
+.background-block-support {
+  background-color: #bbe2f3;
+  height: 408px;
+  width: 45%;
+
+  & span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--font-text);
+  }
+
+  & .site {
+    margin-left: 57px;
+    margin-top: 30px;
+  }
+
+  & img {
+    position: relative;
+    left: 60%;
+    bottom: -40%;
+  }
+}
+
+.background-block-adv {
+  background-color: #bbe2f3;
+  height: 408px;
+  width: 25%;
+
+  & span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--font-text);
+  }
+
+  & .site {
+    margin-left: 57px;
+    margin-top: 30px;
+  }
+
+  & img {
+    position: relative;
+    left: 40%;
+    bottom: -45%;
+  }
+}
+
+.section-develop {
+  margin-top: 100px;
+}
+
+.container-service {
+  height: 1280px;
+  background-color: #bbe2f3;
+  margin-top: 50px;
+}
+
