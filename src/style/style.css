@@ -1,7 +1,17 @@
-
+/*
+Theme Name: P1atfrom
+Theme URI: https://pancakedragon.ru/
+Author: Peter Klimenko
+Author URI: https://pancakedragon.ru/
+Description: Theme for P1atform
+Version: 1.0
+Tags: responsive, clean, minimal, modern, documentation
+*/
 @import '../../node_modules/normalize.css/normalize.css';
 @import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import 'variables.css';
 @import 'fonts.css';
 @import 'header.css';
 @import 'site-content.css';
+
+
