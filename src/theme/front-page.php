@@ -3,49 +3,47 @@
 
 <div class="menu-container">
     <div class="container">
-			<?php wp_nav_menu( array(
-				'theme_location' => '',
-				'menu'           => '',
-				'container'      => false,
-				'container_id'   => '',
-				'menu_class'     => 'row',
-				'menu_id'        => '',
-				'echo'           => true,
-				'fallback_cb'    => 'wp_page_menu',
-				'after'          => '<span>|</span>',
-				'link_before'    => '',
-				'link_after'     => '',
-				'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
-				'depth'          => 0,
-				'walker'         => '',
-			) ); ?>
+		<?php wp_nav_menu( array(
+			'theme_location' => '',
+			'menu'           => '',
+			'container'      => false,
+			'container_id'   => '',
+			'menu_class'     => 'row',
+			'menu_id'        => '',
+			'echo'           => true,
+			'fallback_cb'    => 'wp_page_menu',
+			'after'          => '<span>|</span>',
+			'link_before'    => '',
+			'link_after'     => '',
+			'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
+			'depth'          => 0,
+			'walker'         => '',
+		) ); ?>
     </div>
 </div>
 
 <div class="slider-container">
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselFrontPage" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselFrontPage" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselFrontPage" data-slide-to="1"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="http://lorempixel.com/400/150" alt="Первый слайд">
+                <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
+                     alt="Первый слайд">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="http://lorempixel.com/400/100" alt="Второй слайд">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="http://lorempixel.com/400/100" alt="Третий слайд">
+                <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
+                     alt="Второй слайд">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselFrontPage" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselFrontPage" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -311,10 +309,60 @@
         <button class="align-self-end align-self-center button mt-auto mb-auto">оставить заявку</button>
     </div>
 </section>
-<section class="d-flex flex-column cases-container">
+<section class="d-flex flex-column justify-content-md-center align-items-md-center cases-section">
 
     <h3 class="align-self-center page-header-text">КЕЙСЫ</h3>
 
+    <div class="align-items-md-center d-flex flex-md-wrap cases-container">
+        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case1.png');">
+            <div class="description d-flex flex-md-column">
+                <a href="koni-poni.ru">koni poni.ru</a>
+                <span>Модернизация web-сайта</span>
+                <button>смотреть кейс</button>
+            </div>
+        </div>
+        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case2.png');">
+            <div class="description d-flex flex-md-column">
+                <a href="koni-poni.ru">chromolab.ru</a>
+                <span>Модернизация web-сайта</span>
+                <button>смотреть кейс</button>
+            </div>
+        </div>
+        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case3.png');">
+            <div class="description d-flex flex-md-column">
+                <a href="koni-poni.ru">koni poni.ru</a>
+                <span>Модернизация web-сайта</span>
+                <button>смотреть кейс</button>
+            </div>
+        </div>
+        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case4.png');">
+            <div class="description d-flex flex-md-column">
+                <a href="koni-poni.ru">chromolab.ru</a>
+                <span>Модернизация web-сайта</span>
+                <button>смотреть кейс</button>
+            </div>
+        </div>
+    </div>
+    <button class="align-self-end align-self-center button-cases">еще работы</button>
+</section>
+
+<section class="contact-form-contaier">
+
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-md-5">
+                <h4 class="mt-md-5">
+                    заполните форму, и мы свяжемся с вами в течении часа
+                </h4>
+            </div>
+            <div class="offset-1 col-md-6">
+                <?php do_shortcode('[contact-form-7 id="15" title="Contact form 1"]'); ?>
+                <input class="mt-md-5" placeholder="Ваше имя"/>
+                <input class="mt-md-3" placeholder="Телефон"/>
+                <button class="float-md-right button-cases">отправить</button>
+            </div>
+        </div>
+    </div>
 
 </section>
 

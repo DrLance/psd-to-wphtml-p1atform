@@ -52,6 +52,7 @@
     background-color: #bbe2f3;
     width: 554px;
     margin-right: 32px;
+
     &
     span {
       text-transform: uppercase;
@@ -77,6 +78,7 @@
     height: 254px;
     width: 556px;
     background-color: #bbe2f3;
+
     &
     span {
       text-transform: uppercase;
@@ -103,6 +105,7 @@
     background-color: #bbe2f3;
     width: 298px;
     margin-right: 32px;
+
     &
     span {
       text-transform: uppercase;
@@ -260,6 +263,7 @@
     background-color: var(--main-color);
     height: 57px;
     width: 100%;
+
     & span {
       color: #fff;
       font-size: 18px;
@@ -269,3 +273,92 @@
   }
 }
 
+/******************* CASES STYLE **************/
+
+.button-cases {
+  background: linear-gradient(0deg, #072555, #2b70a7);
+  box-shadow: 0px 5px 13px 0px rgba(141, 140, 140, 0.49),inset 0px 14px 25.92px 1.08px rgba(255, 255, 255, 0.33);
+  width: 199px;
+  height: 30px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+.cases-container {
+  max-width: 1280px;
+
+  & .case {
+    font-family: 'Open Sans';
+    width: 640px;
+    height: 382px;
+
+    & .description {
+      color: #fff;
+      margin-left: 70px;
+      margin-top: 33%;
+
+      & a {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      & span {
+        margin-top: 23px;
+        margin-bottom: 23px;
+        font-size: 14px;
+      }
+
+      & button {
+        font-size: 14px;
+        background-color: #000;
+        text-transform: uppercase;
+        border: none;
+        color: #fff;
+        height: 40px;
+        width: 179px;
+      }
+    }
+
+  }
+}
+
+/***************** CONTACT FORM *********************/
+
+.contact-form-contaier {
+  width: 100%;
+  height: 315px;
+  margin-top: 113px;
+  background-color: #e8e8e8;
+  font-family: 'Open Sans';
+
+  & h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #154e8b;
+  }
+
+  & input {
+    border-width: 1px;
+    border-color: rgb(193, 193, 193);
+    border-style: solid;
+    width: 100%;
+    height: 55px;
+    color: #000;
+
+  }
+
+  & input::placeholder {
+    color: #000;
+  }
+
+}
