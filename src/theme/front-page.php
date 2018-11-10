@@ -30,12 +30,12 @@
             <li data-target="#carouselFrontPage" data-slide-to="1"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
+            <div class="carousel-item active text-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
                      alt="Первый слайд">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
+            <div class="carousel-item text-center">
+                <img class="ml-auto" src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
                      alt="Второй слайд">
             </div>
         </div>
@@ -346,23 +346,151 @@
     <button class="align-self-end align-self-center button-cases">еще работы</button>
 </section>
 
-<section class="contact-form-contaier">
+<section class="contact-form-contaier margin-top-section">
 
     <div class="container p-0">
-        <div class="row">
+        <div class="row pt-md-5">
             <div class="col-md-5">
-                <h4 class="mt-md-5">
+                <h4>
                     заполните форму, и мы свяжемся с вами в течении часа
                 </h4>
             </div>
             <div class="offset-1 col-md-6">
-                <?php do_shortcode('[contact-form-7 id="15" title="Contact form 1"]'); ?>
-                <input class="mt-md-5" placeholder="Ваше имя"/>
-                <input class="mt-md-3" placeholder="Телефон"/>
-                <button class="float-md-right button-cases">отправить</button>
+				<?php echo do_shortcode( '[contact-form-7 id="15" title="Contact form 1"]' ); ?>
             </div>
         </div>
     </div>
+
+</section>
+
+<section class="margin-top-section container-reviews">
+    <div class="container shadow-reviews">
+        <h3 class="align-self-center page-header-text mt-md-3 mb-md-5">отзывы</h3>
+        <div id="carouselReviewsPage" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-5 text-center">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ak_bars.png"
+                                 alt="Первый слайд">
+                        </div>
+                        <div class="col-md-7">
+                            <h5>"Безупречная работа"</h5>
+                            <span>Генеральный директор ООО "Иванов"</span>
+                            <p>Генеральный директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор
+                                ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО
+                                "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный
+                                директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО
+                                "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный
+                                директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО
+                                "Иванов"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-5 text-center">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/ak_bars.png"
+                                 alt="Первый слайд">
+                        </div>
+                        <div class="col-md-7">
+                            <h5>"Безупречная работа"</h5>
+                            <span>Генеральный директор ООО "Иванов"</span>
+                            <p>Генеральный директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор
+                                ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО
+                                "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный
+                                директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО
+                                "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный
+                                директор ООО "Иванов"Генеральный директор ООО "Иванов"Генеральный директор ООО
+                                "Иванов"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselReviewsPage" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselReviewsPage" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="margin-top-section">
+    <h3 class="align-self-center page-header-text mt-md-3 mb-md-5">наши клиенты</h3>
+    <div class="container">
+
+        <div id="carouselOurClientsPage" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                </div>
+                <div class="carousel-item">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
+                         alt="Первый слайд">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="margin-top-section">
+    <h3 class="align-self-center page-header-text mt-md-3 mb-md-5">наши представительства</h3>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4 text-center">
+            <p>г. Тула, пр-т Ленина, 87/3</p>
+        </div>
+        <div class="col-md-4 text-center ">
+            <p>г. Москва,<br> ул. Ярославская, д. 8, <br>корпус 7</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <p>г. Санкт-Петербург,<br>Политихническая 29,<br>(м. Политехническая)</p>
+        </div>
+        </div>
+    </div>
+
 
 </section>
 
