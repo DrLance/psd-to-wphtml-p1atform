@@ -55,7 +55,7 @@
 
     <h2 class="header-text text-center">КОМПАНИЯ НА РЫНКЕ УЖЕ БОЛЕЕ 15 ЛЕТ</h2>
 
-    <h3 class="text-center page-header-text">НАШИ ПРЕИМУЩЕСТВА</h3>
+    <h3 class="text-center page-header-text margin-top-section">НАШИ ПРЕИМУЩЕСТВА</h3>
     <div class="d-flex align-items-baseline justify-content-between container-text">
         <div class="text-center">
             <img class="mb-auto p-2" src="<?php echo get_template_directory_uri(); ?>/img/top.png">
@@ -144,7 +144,7 @@
     </div>
 </section>
 
-<section>
+<section class="margin-top-section">
     <h3 class="text-center page-header-text">НАШИ УСЛУГИ</h3>
 
     <div class="d-flex w-100 container-service flex-column">
@@ -309,7 +309,8 @@
         <button class="align-self-end align-self-center button mt-auto mb-auto">оставить заявку</button>
     </div>
 </section>
-<section class="d-flex flex-column justify-content-md-center align-items-md-center cases-section">
+
+<section class="d-flex flex-column justify-content-md-center align-items-md-center cases-section margin-top-section">
 
     <h3 class="align-self-center page-header-text">КЕЙСЫ</h3>
 

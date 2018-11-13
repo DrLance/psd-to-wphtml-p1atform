@@ -13,5 +13,4 @@ Tags: responsive, clean, minimal, modern, documentation
 @import 'fonts.css';
 @import 'header.css';
 @import 'site-content.css';
-
-
+@import "footer.css";
