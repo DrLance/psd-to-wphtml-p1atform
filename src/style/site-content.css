@@ -6,6 +6,10 @@
   max-width: 1142px;
 }
 
+.margin-top-55 {
+  margin-top: 55px;
+}
+
 .header-text {
   font-size: 30px;
   font-weight: 600;
@@ -22,8 +26,6 @@
   text-align: center;
   text-transform: uppercase;
 }
-
-
 
 .carousel-indicators li {
   height: 10px;
@@ -406,9 +408,216 @@
 
 }
 
-
 /*********************OUR CLIENTS*********************/
 
 .our-clients-container {
 
+}
+
+/***********************SEO***************************/
+.contact-form-top {
+  font-family: 'Open Sans';
+
+  & .politic {
+    font-size: 10px;
+    float: left;
+    height: 12px;
+    padding-top: 8px;
+  }
+
+  & .invalid p {
+    display: flex;
+    flex-direction: row;
+  }
+
+  & .wpcf7-form {
+    & .ajax-loader {
+      display: none;
+    }
+  }
+
+  & input[type=checkbox] {
+    height: 12px;
+    width: 14px;
+
+  }
+
+  & .button-form {
+    background-color: #fb3030;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  & input {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    border: none;
+    font-size: 12px;
+    color: #7d7d7d;
+    padding-left: 10px;
+  }
+}
+
+.we-work-container {
+  margin-top: 55px;
+  font-family: 'Open Sans';
+
+  & .row-item {
+    margin-top: 30px;
+  }
+
+  & .row-last-item {
+    margin-left: 80px;
+  }
+
+  & label {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--main-color);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  & .first-item {
+    width: 74px;
+  }
+
+  & .second-item {
+    width: 122px;
+  }
+
+  & .third-item {
+    width: 133px;
+  }
+
+  & .item-block {
+    position: relative;
+
+    & span {
+      position: absolute;
+      top: 41%;
+      right: 46%;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: bold;
+      color: var(--main-color);
+    }
+  }
+}
+
+/**************************TARIFF*************************/
+.tariff-container {
+  margin-top: 57px;
+  font-family: 'Open Sans';
+
+  & .item-tariff {
+    height: 400px;
+    width: 215px;
+    margin-right: 17px;
+  }
+
+  & .item-tariff-footer {
+    height: 222px;
+    border-right: 1px rgb(193, 193, 193) solid;
+    border-bottom: 1px rgb(193, 193, 193) solid;
+    border-left: 1px rgb(193, 193, 193) solid;
+
+    & a {
+      border-radius: 0;
+      text-transform: uppercase;
+      height: 41px;
+      width: 80%;
+      background-color: var(--main-color);
+      margin-bottom: 19px;
+      color: #fff;
+      font-size: 16px;
+
+    }
+  }
+
+  & .item-tarif-header {
+    height: 172px;
+    background-color: #bbe2f3;
+  }
+
+  & h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--main-color);
+  }
+
+  & span {
+    margin-top: 41px;
+    color: var(--main-color);
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  & p {
+    font-size: 12px;
+    margin-top: 22px;
+    margin-left: 25px;
+    margin-right: 18px;
+  }
+}
+
+/**********************FINANCE WARRANTY **************************/
+.finance-warranty-container {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  font-family: 'Open Sans';
+
+  & span:nth-child(1) {
+    position: absolute;
+    top: 57%;
+    left: 12%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  & span:nth-child(2) {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  & span:nth-child(3) {
+    position: absolute;
+    top: 56%;
+    left: 36%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  & span:nth-child(4) {
+    position: absolute;
+    top: 25%;
+    left: 51%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  & span:nth-child(5) {
+    position: absolute;
+    top: 59%;
+    left: 66%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }

@@ -36,13 +36,13 @@ function custom_post_type() {
 // Set other options for Custom Post Type
 
 	$args = array(
-		'label'               => __( 'movies', 'twentythirteen' ),
-		'description'         => __( 'Movie news and reviews', 'twentythirteen' ),
+		'label'               => __( 'Отзывы', 'twentythirteen' ),
+		'description'         => __( 'Отзывы', 'twentythirteen' ),
 		'labels'              => $labels,
 		// Features this CPT supports in Post Editor
 		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
 		// You can associate this CPT with a taxonomy or custom taxonomy.
-		'taxonomies'          => array( 'genres' ),
+		'taxonomies'          => array( 'reviews' ),
 		/* A hierarchical CPT is like Pages and can have
 		* Parent and child items. A non-hierarchical CPT
 		* is like Posts.

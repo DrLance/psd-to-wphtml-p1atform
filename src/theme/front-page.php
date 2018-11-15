@@ -1,27 +1,5 @@
 <?php get_header(); ?>
 
-
-<div class="menu-container">
-    <div class="container">
-		<?php wp_nav_menu( array(
-			'theme_location' => '',
-			'menu'           => '',
-			'container'      => false,
-			'container_id'   => '',
-			'menu_class'     => 'row',
-			'menu_id'        => '',
-			'echo'           => true,
-			'fallback_cb'    => 'wp_page_menu',
-			'after'          => '<span>|</span>',
-			'link_before'    => '',
-			'link_after'     => '',
-			'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
-			'depth'          => 0,
-			'walker'         => '',
-		) ); ?>
-    </div>
-</div>
-
 <div class="slider-container">
 
     <div id="carouselFrontPage" class="carousel slide" data-ride="carousel">
