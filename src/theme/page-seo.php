@@ -260,14 +260,96 @@
 <section class="margin-top-section container">
     <h3 class="text-center page-header-text ">финансовые гарантии</h3>
 
-    <div class="finance-warranty-container margin-top-55" style="background-image: url(<?php echo get_template_directory_uri() . '/img/seo/finance_background.png' ?>)">
+    <div class="finance-warranty-container margin-top-55"
+         style="background-image: url(<?php echo get_template_directory_uri() . '/img/seo/finance_background.png' ?>)">
         <span>возмещение<br>финансов<br>при отсутствии<br>результат</span>
         <span>возмещение<br>финансов<br>при затягивании<br>сроков</span>
         <span>возмещение<br>финансов и вывод<br>на прежние позиции<br>при попадании<br>под фильтр</span>
         <span>возмещение<br>финансов при<br>некорректной или<br>несвоевременной<br> отчетности</span>
         <span>фиксированная<br>цена на<br>протяжении<br>срока договора</span>
     </div>
-    <p>* Результат индивидуальный и зависит от личных особенностей каждого проекта</p>
+    <p class="finance-warranty-description"><sup>*</sup> Результат индивидуальный и зависит от личных особенностей
+        каждого проекта</p>
+</section>
+
+<section>
+    <div class="form-сontract-container">
+        <div class="container-970 d-flex flex-column align-items-center justify-content-center">
+            <p>Узнать стоимость и сроки продвижения ващего сайта</p>
+            <div>
+				<?php echo do_shortcode( '[contact-form-7 id="42"]' ); ?>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="margin-top-section ">
+    <h3 class="text-center page-header-text ">результаты нашего сотрудничества</h3>
+
+    <div class="container">
+
+        <div class="cooperation-container margin-top-55 flex-row d-flex flex-wrap align-items-baseline justify-content-between">
+            <figure class="figure text-center">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/visible_site.png' ?>">
+                <figcaption class="figure-caption">Улучшится видимость сайта<br>в поиске выдаче</figcaption>
+            </figure>
+            <figure class="figure text-center">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/increase_sale.png' ?>">
+                <figcaption class="figure-caption">Увеличатся продажи<br>с сайта*</figcaption>
+            </figure>
+            <figure class="figure text-center">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/top_yandex_google.png' ?>">
+                <figcaption class="figure-caption">Сайт выйдет в топ поиска<br>"Яндекс" и Google</figcaption>
+            </figure>
+            <figure class="figure text-center">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/increase_visits.png' ?>">
+                <figcaption class="figure-caption">Увеличится количество<br>поситетелей сайта</figcaption>
+            </figure>
+            <figure class="figure text-center">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/increase_calls.png' ?>">
+                <figcaption class="figure-caption">Увеличится количество<br>заявок и звонков</figcaption>
+            </figure>
+
+
+            <figure class="figure text-center" style="margin-left: 80px;">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/decrease_seasons.png' ?>">
+                <figcaption class="figure-caption">Снизится зависимость продаж<br>от сезонных колебаний*</figcaption>
+            </figure>
+            <figure class="figure text-center">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/decrease_adv_comp.png' ?>">
+                <figcaption class="figure-caption">Снизятся расходы<br>на рекламные компании</figcaption>
+            </figure>
+            <figure class="figure text-center">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/decrease_cost_visit.png' ?>">
+                <figcaption class="figure-caption">Снизится стоимость<br>одного посетителя сайта</figcaption>
+            </figure>
+            <figure class="figure text-center" style="padding-right: 122px">
+                <img class="figure-img img-fluid"
+                     src="<?php echo get_template_directory_uri() . '/img/seo/decrease_cost_invite.png' ?>">
+                <figcaption class="figure-caption">Снизятся затраты на<br>привлечение одного клиента</figcaption>
+            </figure>
+        </div>
+
+        <p class="finance-warranty-description align-self-start"><sup>*</sup> Результат индивидуальный и зависит от
+            личных особенностей
+            каждого проекта</p>
+    </div>
+</section>
+
+
+<section class="margin-top-section ">
+    <h3 class="text-center page-header-text ">команда проекта</h3>
+
+    <div class="container">
+    </div>
 </section>
 
 

@@ -6,12 +6,18 @@
   max-width: 1142px;
 }
 
+.container-970 {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .margin-top-55 {
   margin-top: 55px;
 }
 
 .header-text {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
   color: #30bbfb;
   margin-top: 39px;
@@ -21,7 +27,7 @@
   color: var(--main-color);
   font-weight: bold;
   font-family: var(--font-text);
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
@@ -439,7 +445,6 @@
   & input[type=checkbox] {
     height: 12px;
     width: 14px;
-
   }
 
   & .button-form {
@@ -567,12 +572,13 @@
   }
 }
 
+
 /**********************FINANCE WARRANTY **************************/
 .finance-warranty-container {
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
-  height: 500px;
+  height: 430px;
   font-family: 'Open Sans';
 
   & span:nth-child(1) {
@@ -619,5 +625,99 @@
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+  }
+}
+
+.finance-warranty-description {
+  font-family: 'Open Sans';
+  color: #000;
+  font-size: 0.875rem;
+}
+
+/*****************************FORM CONTRACT*************************/
+.form-сontract-container {
+  height: 185px;
+  background-color: #e8e8e8;
+  font-family: 'Open Sans';
+
+  & p:nth-child(1) {
+    color: #000;
+    font-size: 1.125rem;
+    margin-top: 27px;
+  }
+
+  & .wpcf7-form {
+    display: inline-block;
+    position: relative;
+
+    & .wpcf7-not-valid-tip {
+      display: none;
+    }
+
+    & .ajax-loader {
+      display: none;
+    }
+
+    & .wpcf7-list-item {
+      margin: 0;
+    }
+
+    & .wpcf7-response-output {
+      position: absolute;
+      top: 75%;
+      left: 20%;
+      margin: 0;
+      padding: 0;
+      width: auto;
+    }
+
+    & input {
+      border: none;
+      border-radius: 2px;
+      height: 35px;
+      width: 23%;
+      margin-right: 21px;
+      font-size: 0.75rem;
+      color: #7d7d7d;
+      padding-left: 10px;
+    }
+
+    & input[type=submit] {
+      border: none;
+      border-radius: 2px;
+      height: 35px;
+      width: 20%;
+      color: #fff;
+      background-color: #fb3030;
+      text-transform: uppercase;
+      font-size: 0.6875rem;
+    }
+
+    & input[type=checkbox] {
+      height: 14px;
+      width: 12px;
+      margin-right: 0;
+      vertical-align: middle;
+      font-size: 0.625rem;
+    }
+
+    & .politic {
+      font-size: 0.625rem;
+    }
+  }
+}
+
+/********************** COOPERATE ***********************/
+.cooperation-container {
+  font-family: 'Open Sans';
+  font-size: 0.75rem;
+  color: var(--main-color);
+
+  & figure {
+    padding-right: 60px;
+  }
+
+  & figure::nth-child(5) {
+
   }
 }

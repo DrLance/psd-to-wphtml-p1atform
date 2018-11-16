@@ -288,42 +288,7 @@
     </div>
 </section>
 
-<section class="d-flex flex-column justify-content-md-center align-items-md-center cases-section margin-top-section">
-
-    <h3 class="align-self-center page-header-text">КЕЙСЫ</h3>
-
-    <div class="align-items-md-center d-flex flex-md-wrap cases-container">
-        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case1.png');">
-            <div class="description d-flex flex-md-column">
-                <a href="koni-poni.ru">koni poni.ru</a>
-                <span>Модернизация web-сайта</span>
-                <button>смотреть кейс</button>
-            </div>
-        </div>
-        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case2.png');">
-            <div class="description d-flex flex-md-column">
-                <a href="koni-poni.ru">chromolab.ru</a>
-                <span>Модернизация web-сайта</span>
-                <button>смотреть кейс</button>
-            </div>
-        </div>
-        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case3.png');">
-            <div class="description d-flex flex-md-column">
-                <a href="koni-poni.ru">koni poni.ru</a>
-                <span>Модернизация web-сайта</span>
-                <button>смотреть кейс</button>
-            </div>
-        </div>
-        <div class="case" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/case4.png');">
-            <div class="description d-flex flex-md-column">
-                <a href="koni-poni.ru">chromolab.ru</a>
-                <span>Модернизация web-сайта</span>
-                <button>смотреть кейс</button>
-            </div>
-        </div>
-    </div>
-    <button class="align-self-end align-self-center button-cases">еще работы</button>
-</section>
+<?php get_template_part('partials/content','cases'); ?>
 
 <section class="contact-form-contaier margin-top-section">
 
@@ -398,60 +363,7 @@
     </div>
 </section>
 
-<section class="margin-top-section">
-    <h3 class="align-self-center page-header-text mt-md-3 mb-md-5">наши клиенты</h3>
-    <div class="container">
-
-        <div id="carouselOurClientsPage" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                    <img class="ml-md-5 mt-md-5" src="<?php echo get_template_directory_uri(); ?>/img/our_client.png"
-                         alt="Первый слайд">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php get_template_part('partials/content', 'clients'); ?>
 
 <section class="margin-top-section">
     <h3 class="align-self-center page-header-text mt-md-3 mb-md-5">наши представительства</h3>
