@@ -62,7 +62,7 @@ ul li:last-child span {
 
 .slider-container {
   width: 100%;
-  height: 388px;
+  height: auto;
   font-family: 'Open Sans';
   background-color: #000;
 

@@ -349,8 +349,69 @@
     <h3 class="text-center page-header-text ">команда проекта</h3>
 
     <div class="container">
+        <div class="project-team-container d-flex flex-column">
+            <div class="items-container d-flex flex-row flex-wrap">
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>оптимизатор</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>эксперт</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>программист</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>верстальщик</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>менеджер</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>аналитик</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>копирайтер</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+                <div class="item-container col-3">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
+                    <span>контент-менеджер</span>
+                    <p>детализирует работы, формирует задачи, для исполнителей, борется за результат</p>
+                </div>
+            </div>
+            <a class="align-self-center btn" href="#">заказать продвижение сайта</a>
+        </div>
     </div>
 </section>
+
+<section class="margin-top-section">
+    <div class="form-сontract-container">
+        <div class="container-970 d-flex flex-column align-items-center justify-content-center">
+            <p style="color: #124987">Ознакомтесь с нашим коммерческим предложением</p>
+            <div>
+				<?php echo do_shortcode( '[contact-form-7 id="42"]' ); ?>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<?php get_template_part('partials/content', 'clients'); ?>
+
+<?php get_template_part('partials/content', 'seo'); ?>
 
 
 <?php get_footer(); ?>

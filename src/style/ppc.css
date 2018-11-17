@@ -1,0 +1,141 @@
+.slider-container {
+  line-height: 1.2;
+
+  & .ppc-block {
+    height: 90%;
+    background: url("./img/ppc/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.ppc-container {
+  font-family: 'Open Sans';
+  line-height: 1.2;
+
+  & p {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: var(--main-color);
+  }
+
+  & h5 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #30bbfb;
+  }
+
+  & .ppc-steps-container {
+    & .step-1 {
+      background-image: url("img/ppc/arrow_small_right.png");
+      background-repeat: no-repeat;
+      height: 88px;
+      width: 261px;
+      margin-top: 1.43rem;
+      text-align: center;
+    }
+
+    & .step-2 {
+      background-image: url("img/ppc/arrow_big_right.png");
+      background-repeat: no-repeat;
+      height: 88px;
+      width: 343px;
+      text-align: center;
+    }
+
+    & .step-3 {
+      background-image: url("img/ppc/arrow_right_left.png");
+      background-repeat: no-repeat;
+      height: 88px;
+      width: 397px;
+      text-align: center;
+    }
+
+    & .step-4 {
+      background-image: url("img/ppc/arrow_big_left.png");
+      background-repeat: no-repeat;
+      height: 88px;
+      width: 343px;
+      text-align: center;
+    }
+
+    & .description {
+      font-size: 1rem;
+      color: #fff;
+      padding-left: 2.25rem;
+      padding-right: 2.25rem;
+    }
+  }
+}
+
+.ppc-finance-warranty {
+  max-width: 615px;
+  font-family: 'Open Sans';
+  line-height: 1.2;
+
+  & .finance-warranty-container {
+    & span:nth-child(1) {
+      position: absolute;
+      top: 61%;
+      left: 8%;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    & span:nth-child(2) {
+      position: absolute;
+      top: 22%;
+      left: 38%;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    & span:nth-child(3) {
+      position: absolute;
+      top: 60%;
+      left: 62%;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}
+
+.ppc-work-container {
+  font-family: 'Open Sans';
+  line-height: 1.2;
+
+  & p {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: var(--main-color);
+    text-align: center;
+  }
+
+  & .item {
+    width: 280px;
+
+    & .arrow-container {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      background: url('img/ppc/effencive_work_background.png');
+      background-repeat: no-repeat;
+      height: 395px;
+
+      & div {
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+      }
+
+      & span {
+        margin-left: 2px;
+        color: #fff;
+      }
+    }
+  }
+}

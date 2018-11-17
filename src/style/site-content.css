@@ -7,7 +7,7 @@
 }
 
 .container-970 {
-  max-width: 970px;
+  max-width: 980px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -414,54 +414,78 @@
 
 }
 
-/*********************OUR CLIENTS*********************/
 
-.our-clients-container {
-
-}
-
-/***********************SEO***************************/
+/***********************SEO HEADER***************************/
 .contact-form-top {
   font-family: 'Open Sans';
 
-  & .politic {
-    font-size: 10px;
-    float: left;
-    height: 12px;
-    padding-top: 8px;
-  }
-
-  & .invalid p {
-    display: flex;
-    flex-direction: row;
+  & p:nth-child(1) {
+    color: #000;
+    font-size: 1.125rem;
+    margin-top: 27px;
   }
 
   & .wpcf7-form {
+    display: inline-block;
+    position: relative;
+
+    & .wpcf7-not-valid-tip {
+      display: none;
+    }
+
     & .ajax-loader {
       display: none;
     }
-  }
 
-  & input[type=checkbox] {
-    height: 12px;
-    width: 14px;
-  }
+    & .wpcf7-list-item {
+      margin: 0;
+    }
 
-  & .button-form {
-    background-color: #fb3030;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-  }
+    & .wpcf7-response-output {
+      position: absolute;
+      color: #fff;
+      top: 95%;
+      left: 20%;
+      margin: 0;
+      padding: 0;
+      width: auto;
+    }
 
-  & input {
-    border-radius: 3px;
-    background-color: rgb(255, 255, 255);
-    height: 35px;
-    border: none;
-    font-size: 12px;
-    color: #7d7d7d;
-    padding-left: 10px;
+    & input {
+      border: none;
+      border-radius: 2px;
+      height: 35px;
+      width: 23%;
+      margin-right: 21px;
+      font-size: 0.75rem;
+      color: #7d7d7d;
+      padding-left: 10px;
+    }
+
+    & input[type=submit] {
+      border: none;
+      border-radius: 2px;
+      height: 35px;
+      width: 20%;
+      color: #fff;
+      background-color: #fb3030;
+      text-transform: uppercase;
+      font-size: 0.6875rem;
+    }
+
+    & input[type=checkbox] {
+      height: 14px;
+      width: 12px;
+      margin-right: 0;
+      vertical-align: middle;
+      font-size: 0.625rem;
+    }
+
+    & .politic {
+      font-size: 0.625rem;
+      padding-top: 0.5rem;
+      float: left;
+    }
   }
 }
 
@@ -711,13 +735,68 @@
 .cooperation-container {
   font-family: 'Open Sans';
   font-size: 0.75rem;
-  color: var(--main-color);
 
   & figure {
     padding-right: 60px;
   }
 
-  & figure::nth-child(5) {
+  & figcaption {
+    color: var(--main-color);
+  }
 
+}
+
+/********************* PROJECT TEAM *********************/
+
+.project-team-container {
+  margin-top: 47px;
+  background-color: #bbe2f3;
+  width: 1151px;
+  font-family: 'Open Sans';
+
+  & .items-container {
+    padding-left: 89px;
+    padding-top: 33px;
+
+    & .item-container {
+      & span {
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        font-weight: bold;
+        vertical-align: bottom;
+        padding-left: 10px;
+      }
+
+      & p {
+        padding-top: 13px;
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  & a {
+    height: 2.5rem;
+    background-color: var(--main-color);
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0;
+    margin-top: 2.81rem;
+    margin-bottom: 2.375rem;
+  }
+}
+
+
+/************************ SEO ***************************/
+
+.seo-container {
+  font-family: 'Open Sans';
+
+  & p {
+    font-size: 1.125rem;
+    color: var(--main-color);
+    margin-top: 3rem;
+    margin-bottom: 4rem;
   }
 }

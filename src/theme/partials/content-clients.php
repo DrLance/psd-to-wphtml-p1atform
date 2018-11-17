@@ -1,5 +1,5 @@
 <section class="margin-top-section">
-	<h3 class="align-self-center page-header-text mt-md-3 mb-md-5">наши клиенты</h3>
+	<h3 class="align-self-center page-header-text mt-md-3">наши клиенты</h3>
 	<div class="container">
 
 		<div id="carouselOurClientsPage" class="carousel slide" data-ride="carousel">
