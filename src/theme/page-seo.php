@@ -409,9 +409,9 @@
 </section>
 
 
-<?php get_template_part('partials/content', 'clients'); ?>
+<?php get_template_part( 'partials/content', 'clients' ); ?>
 
-<?php get_template_part('partials/content', 'seo'); ?>
+<?php get_template_part( 'partials/content', 'seo' ); ?>
 
 
 <?php get_footer(); ?>

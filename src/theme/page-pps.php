@@ -4,7 +4,7 @@
     <div class="text-center">
         <div class="main-block container pr-0 pl-0 ppc-block">
 
-            <div class="col-md-7 offset-3 ">
+            <div class="col-md-7 offset-3">
                 <h4 class="pt-md-3">PPC. Контекстная реклама</h4>
             </div>
 
@@ -150,32 +150,20 @@
                         <div>
                             <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                         </div>
-                        <span>подводим анализ целевой аудитории, конкурентов</span>
+                        <span>внедряем рекламную стратегию, работаем со всеми видами рекламных каналов</span>
                     </div>
                     <div class="d-flex flex-row align-items-baseline">
                         <div>
                             <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                         </div>
-                        <span>подготавливаем стратегию кампании</span>
+                        <span>устанавливаем контроль на сайт для дополнительного контроля и повышение эффективности кампании</span>
                     </div>
                     <div class="d-flex flex-row align-items-baseline">
                         <div>
                             <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                         </div>
-                        <span>учитываем сезонность бизнеса</span>
+                        <span>настраиваем цели и подключаем дополнительные сервисы</span>
 
-                    </div>
-                    <div class="d-flex flex-row align-items-baseline">
-                        <div>
-                            <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
-                        </div>
-                        <span>проводим технический анализ сайта и юзабилити-аудит для конвертации трафика в клиентов</span>
-                    </div>
-                    <div class="d-flex flex-row align-items-baseline">
-                        <div>
-                            <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
-                        </div>
-                        <span>настраиваем рекламные в периоды высокого сезона</span>
                     </div>
                 </div>
             </div>
@@ -186,32 +174,20 @@
                         <div>
                             <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                         </div>
-                        <span>подводим анализ целевой аудитории, конкурентов</span>
+                        <span>сопровождение и контроль всех рекламных каналов, выявление эффективных источников</span>
                     </div>
                     <div class="d-flex flex-row align-items-baseline">
                         <div>
                             <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                         </div>
-                        <span>подготавливаем стратегию кампании</span>
+                        <span>анализируем данные в Яндекс.Метрике и Google Analytics</span>
                     </div>
                     <div class="d-flex flex-row align-items-baseline">
                         <div>
                             <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                         </div>
-                        <span>учитываем сезонность бизнеса</span>
+                        <span>контроль бюджета</span>
 
-                    </div>
-                    <div class="d-flex flex-row align-items-baseline">
-                        <div>
-                            <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
-                        </div>
-                        <span>проводим технический анализ сайта и юзабилити-аудит для конвертации трафика в клиентов</span>
-                    </div>
-                    <div class="d-flex flex-row align-items-baseline">
-                        <div>
-                            <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
-                        </div>
-                        <span>настраиваем рекламные в периоды высокого сезона</span>
                     </div>
                 </div>
             </div>
@@ -226,7 +202,7 @@
 
     <div class="container-970">
         <div class="smm-tariffs-container">
-            <table class="w-100">
+            <table class="w-100 mt-5">
                 <thead>
                 <tr class="text-center">
                     <th>услуги</th>
@@ -238,106 +214,106 @@
                 <tbody>
                 <tr>
                     <td>Бюджет на рекламу</td>
-                    <td>от 5000 рублей</td>
-                    <td>от 10 000 рублей</td>
-                    <td>от 20 000 рублей</td>
+                    <td class="text-center">от 20 000 рублей</td>
+                    <td class="text-center">от 50 000 рублей</td>
+                    <td class="text-center">от 100 000 рублей</td>
                 </tr>
                 <tr>
-                    <td>Создание группы и рабочего аккаунта</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                </tr>
-                <tr>
-                    <td>Создание концепции группы</td>
+                    <td>"Яндекс.Метрика" / Google Analytics</td>
                     <td class="text-center">+</td>
                     <td class="text-center">+</td>
                     <td class="text-center">+</td>
                 </tr>
                 <tr>
-                    <td>Оформление группы описанием, полезными ссылками</td>
+                    <td>"Яндекс.Директ" / Google AdWords</td>
                     <td class="text-center">+</td>
                     <td class="text-center">+</td>
                     <td class="text-center">+</td>
                 </tr>
                 <tr>
-                    <td>Создание дизайна аватарки</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                </tr>
-                <tr>
-                    <td>Администрирование группы, очистка группы от спама</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
+                    <td>Call-tracking / JivoSite</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
                     <td class="text-center">+</td>
                 </tr>
                 <tr>
-                    <td>Запуск и настройка таргетированной рекламы</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                </tr>
-                <tr>
-                    <td>Ежемесячная отчетность</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                </tr>
-                <tr>
-                    <td>Создание графического меню</td>
+                    <td>Ретаргетинг/Ремаркетинг</td>
                     <td class="text-center">-</td>
                     <td class="text-center">+</td>
                     <td class="text-center">+</td>
                 </tr>
                 <tr>
-                    <td>Создание графических шаблонов постов</td>
+                    <td>Количество ключей</td>
+                    <td class="text-center">до 1 500</td>
+                    <td class="text-center">дл 4 000</td>
+                    <td class="text-center">до 10 000</td>
+                </tr>
+                <tr>
+                    <td>Ретаргетинг на недооформление покупки</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">Да</td>
+                    <td class="text-center">Да</td>
+                </tr>
+                <tr>
+                    <td>Анализ ниши, конкурентных преимуществ, составление УТП</td>
                     <td class="text-center">-</td>
                     <td class="text-center">+</td>
                     <td class="text-center">+</td>
                 </tr>
                 <tr>
-                    <td>Создание и проведение опросов/акций</td>
+                    <td>Аудит-юзабилити сайта</td>
                     <td class="text-center">-</td>
                     <td class="text-center">+</td>
+                    <td class="text-center">+</td>
+                </tr>
+                <tr>
+                    <td>Динамеческий ремаркетинг</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">+</td>
+                </tr>
+                <tr>
+                    <td>Поисковый ремаркетинг</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">+</td>
+                </tr>
+                <tr>
+                    <td>Товарная реклама</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">+</td>
+                </tr>
+                <tr>
+                    <td>Реклама видео на канале YouTube</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
                     <td class="text-center">+</td>
                 </tr>
                 <tr>
                     <td>Сквозная аналитика</td>
                     <td class="text-center">-</td>
-                    <td class="text-center">+</td>
+                    <td class="text-center">-</td>
                     <td class="text-center">+</td>
                 </tr>
                 <tr>
-                    <td>Подготовка отчетов по рекламе</td>
+                    <td>Разработка прототипа посадочных страиц</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">+</td>
+                </tr>
+                <tr>
+                    <td>Отчетность</td>
                     <td class="text-center">1 раз в месяц</td>
                     <td class="text-center">1 раз в месяц</td>
-                    <td class="text-center">1 раз в месяц</td>
-                </tr>
-                <tr>
-                    <td>Создание фотоальбомов, загрузка фотографий</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">+</td>
-                    <td class="text-center">+</td>
-                </tr>
-                <tr>
-                    <td>Создание и размещение тематического контента</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">+</td>
-                </tr>
-                <tr>
-                    <td>Настройка ретаргетинга, внедрение кода пекселя на сайт</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">-</td>
-                    <td class="text-center">+</td>
+                    <td class="text-center">2 раза в месяц</td>
                 </tr>
                 </tbody>
                 <tfoot>
                 <tr>
                     <th>Стоимость работы агенства</th>
                     <th class="text-center">от 10 000 рублей</th>
-                    <th class="text-center">от 18 000 рублей</th>
+                    <th class="text-center">от 20 000 рублей</th>
                     <th class="text-center">от 30 000 рублей</th>
                 </tr>
                 <tr style="background-color: #fff">
@@ -349,7 +325,7 @@
                 </tfoot>
             </table>
 
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center mt-4">
                 <div class="form-tariff-container">
 					<?php echo do_shortcode( '[contact-form-7 id="43"]' ); ?>
                 </div>
@@ -361,7 +337,7 @@
 <section class="margin-top-section">
     <div class="form-сontract-container">
         <div class="container-970 d-flex flex-column align-items-center justify-content-center">
-            <p style="color: #124987">Получить коммерческое предложение</p>
+            <p style="color: #124987">Узнайте стоимость и сроки запуска вашей рекламной компании</p>
             <div>
 				<?php echo do_shortcode( '[contact-form-7 id="42"]' ); ?>
             </div>

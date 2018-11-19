@@ -1,4 +1,29 @@
 .footer {
   height: 310px;
   background-color: #154e8b;
+  font-family: 'Open Sans';
+  color: #fff;
+  font-size: 0.875rem;
+
+  & .items {
+    padding-top: 27px;
+
+    & ul {
+      list-style-type: circle;
+      margin-top: 28px;
+
+      padding: 0;
+      text-align: unset;
+      list-style-position: inside;
+
+      & li {
+        display: list-item;
+      }
+
+      & a {
+        color: #fff;
+      }
+
+    }
+  }
 }

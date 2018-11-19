@@ -273,7 +273,7 @@
                     <th class="text-center">от 30 000 рублей</th>
                 </tr>
                 <tr style="background-color: #fff">
-                    <th />
+                    <th/>
                     <th class="text-center"><a href="#">заказать</a></th>
                     <th class="text-center"><a href="#">заказать</a></th>
                     <th class="text-center"><a href="#">заказать</a></th>
@@ -282,9 +282,9 @@
             </table>
 
             <div class="d-flex align-items-center justify-content-center">
-            <div class="form-tariff-container">
-	            <?php echo do_shortcode( '[contact-form-7 id="43"]' ); ?>
-            </div>
+                <div class="form-tariff-container">
+					<?php echo do_shortcode( '[contact-form-7 id="43"]' ); ?>
+                </div>
             </div>
         </div>
     </div>

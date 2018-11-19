@@ -6,6 +6,11 @@
     background: url("./img/ppc/background.png");
     background-repeat: no-repeat;
     background-position: center;
+
+    & h4 {
+      text-shadow: 10px 3px 107.42px rgba(0, 0, 0, 0.004);
+      padding-top: 4rem;
+    }
   }
 }
 
