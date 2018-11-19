@@ -7,6 +7,8 @@ function wordpressify_resources() {
 
 add_action( 'wp_enqueue_scripts', 'wordpressify_resources' );
 
+add_theme_support( 'post-thumbnails');
+
 
 //show_admin_bar( false );
 
@@ -18,35 +20,24 @@ function custom_post_type() {
 
 // Set UI labels for Custom Post Type
 	$labels = array(
-		'name'                => _x( 'Movies', 'Post Type General Name', 'twentythirteen' ),
-		'singular_name'       => _x( 'Movie', 'Post Type Singular Name', 'twentythirteen' ),
-		'menu_name'           => __( 'Movies', 'twentythirteen' ),
-		'parent_item_colon'   => __( 'Parent Movie', 'twentythirteen' ),
-		'all_items'           => __( 'All Movies', 'twentythirteen' ),
-		'view_item'           => __( 'View Movie', 'twentythirteen' ),
-		'add_new_item'        => __( 'Add New Movie', 'twentythirteen' ),
-		'add_new'             => __( 'Add New', 'twentythirteen' ),
-		'edit_item'           => __( 'Edit Movie', 'twentythirteen' ),
-		'update_item'         => __( 'Update Movie', 'twentythirteen' ),
-		'search_items'        => __( 'Search Movie', 'twentythirteen' ),
-		'not_found'           => __( 'Not Found', 'twentythirteen' ),
-		'not_found_in_trash'  => __( 'Not found in Trash', 'twentythirteen' ),
+		'name'                => _x( 'Новости', 'Новости сайта', 'p1atform' ),
+		'singular_name'       => _x( 'Новость', 'Post Type Singular Name', 'p1atform' ),
+		'menu_name'           => __( 'Новости', 'p1atform' ),
+		'parent_item_colon'   => __( 'Parent Новость', 'p1atform' ),
+		'all_items'           => __( 'Все новости', 'p1atform' ),
+		'view_item'           => __( 'Просмотреть новость', 'p1atform' ),
+		'add_new_item'        => __( 'Добавить новость', 'p1atform' ),
+		'add_new'             => __( 'Добавить новость', 'p1atform' ),
+		'edit_item'           => __( 'Редактировать новость', 'p1atform' ),
+		'update_item'         => __( 'Обновить новость', 'p1atform' ),
+		'search_items'        => __( 'Поиск новости', 'p1atform' ),
 	);
 
-// Set other options for Custom Post Type
-
 	$args = array(
-		'label'               => __( 'Отзывы', 'twentythirteen' ),
-		'description'         => __( 'Отзывы', 'twentythirteen' ),
+		'label'               => __( 'Отзывы', 'p1atform' ),
+		'description'         => __( 'Отзывы', 'p1atform' ),
 		'labels'              => $labels,
-		// Features this CPT supports in Post Editor
-		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
-		// You can associate this CPT with a taxonomy or custom taxonomy.
-		'taxonomies'          => array( 'reviews' ),
-		/* A hierarchical CPT is like Pages and can have
-		* Parent and child items. A non-hierarchical CPT
-		* is like Posts.
-		*/
+		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields' ),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,
@@ -58,17 +49,74 @@ function custom_post_type() {
 		'has_archive'         => true,
 		'exclude_from_search' => false,
 		'publicly_queryable'  => true,
-		'capability_type'     => 'page',
+		'capability_type'     => 'post',
 	);
 
-	// Registering your Custom Post Type
-	register_post_type( 'movies', $args );
+	register_post_type( 'news', $args );
+
+	$labels = array(
+		'name'                => _x( 'Клиенты', 'Новости сайта', 'p1atform' ),
+		'singular_name'       => _x( 'Клиент', 'Post Type Singular Name', 'p1atform' ),
+		'menu_name'           => __( 'Клиенты', 'p1atform' ),
+		'parent_item_colon'   => __( 'Парент Клиент', 'p1atform' ),
+		'all_items'           => __( 'Все клиенты', 'p1atform' ),
+		'view_item'           => __( 'Просмотреть клиента', 'p1atform' ),
+		'add_new_item'        => __( 'Добавить клиента', 'p1atform' ),
+		'add_new'             => __( 'Добавить клиента', 'p1atform' ),
+		'edit_item'           => __( 'Редактировать клиента', 'p1atform' ),
+		'update_item'         => __( 'Обновить клиента', 'p1atform' ),
+		'search_items'        => __( 'Поиск клиента', 'p1atform' ),
+	);
+
+	$args = array(
+		'labels'              => $labels,
+		'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 6,
+		'can_export'          => true,
+		'has_archive'         => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'post',
+	);
+
+	register_post_type( 'clients', $args );
+
+	register_post_type('reviews', array(
+		'labels'             => array(
+			'name'               => 'Отзывы', // Основное название типа записи
+			'singular_name'      => 'Отзыв', // отдельное название записи типа Book
+			'add_new'            => 'Добавить Отзыв',
+			'add_new_item'       => 'Добавить Отзыв',
+			'edit_item'          => 'Редактировать Отзыв',
+			'new_item'           => 'Новая Отзыв',
+			'view_item'          => 'Посмотреть Отзыв',
+			'search_items'       => 'Найти Отзыв',
+			'not_found'          =>  'Книг не найдено',
+			'not_found_in_trash' => 'В корзине книг не найдено',
+			'parent_item_colon'  => '',
+			'menu_name'          => 'Отзывы'
+
+		),
+		'public'             => true,
+		'publicly_queryable' => true,
+		'show_ui'            => true,
+		'show_in_menu'       => true,
+		'query_var'          => true,
+		'rewrite'            => true,
+		'capability_type'    => 'post',
+		'has_archive'        => true,
+		'menu_position'       => 5,
+		'hierarchical'       => false,
+		'menu_position'      => null,
+		'supports'           => array('title','editor','author','thumbnail','excerpt','comments')
+	) );
 
 }
-
-/* Hook into the 'init' action so that the function
-* Containing our post type registration is not
-* unnecessarily executed.
-*/
 
 add_action( 'init', 'custom_post_type', 0 );

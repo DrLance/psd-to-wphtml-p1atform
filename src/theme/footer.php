@@ -25,10 +25,10 @@
 
                 <p class="mt-1">КОМПАНИЯ</p>
                 <ul>
-                    <li><a href="">Об агенстве</a></li>
-                    <li><a href="">Клиенты</a></li>
-                    <li><a href="">Контакты</a></li>
-                    <li><a href="">Новости</a></li>
+                    <li><a href="<?php echo  get_home_url(); ?>/about">Об агенстве</a></li>
+                    <li><a href="/clients">Клиенты</a></li>
+                    <li><a href="/contacts">Контакты</a></li>
+                    <li><a href="/news">Новости</a></li>
                 </ul>
             </div>
             <div style="width: 20%; margin-left: 6%">

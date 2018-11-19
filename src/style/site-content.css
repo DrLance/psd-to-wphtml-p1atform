@@ -363,6 +363,7 @@
     height: 55px;
     color: #000;
     margin-bottom: 29px;
+    padding-left: 17px;
   }
 
   & input::placeholder {
@@ -381,6 +382,7 @@
     font-family: 'Open Sans';
     text-transform: uppercase;
     margin-top: 20px;
+    padding-left: 0;
     float: right;
   }
 }
@@ -798,5 +800,184 @@
     color: var(--main-color);
     margin-top: 3rem;
     margin-bottom: 4rem;
+  }
+}
+
+/***************************CONTACTS*********************/
+
+.contacts-container {
+  font-family: 'Open Sans';
+  margin-bottom: 113px;
+
+  & .info-container {
+    & p {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    & span {
+      padding-left: 1.5rem;
+      padding-bottom: 2.4rem;
+    }
+
+    & a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+
+  & .contacts-form {
+    background-color: #bbe2f3;
+    padding-top: 1rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+
+    & .wpcf7-form {
+      display: inline-block;
+      position: relative;
+    }
+
+    & .wpcf7-not-valid-tip {
+      display: none;
+    }
+
+    & .ajax-loader {
+      display: none;
+    }
+
+    & .wpcf7-list-item {
+      margin: 0;
+    }
+
+    & .wpcf7-response-output {
+      position: absolute;
+      top: 103%;
+      left: 5%;
+      margin: 0;
+      padding: 0;
+      width: auto;
+    }
+
+
+    & input {
+      border: none;
+      border-radius: 2px;
+      height: 35px;
+      width: 100%;
+      font-size: 0.75rem;
+      color: #7d7d7d;
+      padding-left: 10px;
+      margin-bottom: 0.9rem;
+    }
+
+    & textarea {
+      border: none;
+      border-radius: 2px;
+      height: 20%;
+      font-size: 0.75rem;
+      color: #7d7d7d;
+      padding-left: 10px;
+      margin-bottom: 0.9rem;
+    }
+
+    & input[type=submit] {
+      border: none;
+      border-radius: 2px;
+      height: 35px;
+      width: 45%;
+      color: #fff;
+      background-color: #fb3030;
+      text-transform: uppercase;
+      font-size: 0.6875rem;
+      float: right;
+    }
+
+    & .wpcf7-captchar {
+      float: left;
+      width: 40%;
+    }
+
+    & .wpcf7-captchac {
+      background-color: transparent;
+      vertical-align: center;
+      margin-left: 20px;
+      margin-bottom: 2rem;
+    }
+
+  }
+}
+
+/**************************** NEWS *****************************/
+
+.news-container {
+  font-family: 'Open Sans';
+
+  & .news-item {
+    width: 45%;
+    margin-bottom: 55px;
+
+    & h6 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      float: left;
+    }
+
+    & span {
+      margin-top: 1rem;
+      margin-bottom: 10px;
+      font-size: 0.75rem;
+    }
+
+    & p {
+      margin-top: 30px;
+      font-size: 0.93rem;
+    }
+
+    & a {
+      color: #9b9a9a;
+    }
+  }
+
+  & .button-cases {
+    margin-top: 0;
+    margin-bottom: 55px;
+  }
+}
+
+/************************* REVIEWS ***************************/
+
+.reviews-container {
+  font-family: 'Open Sans';
+
+  & .news-item {
+    width: 45%;
+    margin-bottom: 55px;
+
+    & h6 {
+      font-size: 1.125rem;
+      font-weight: bold;
+      float: left;
+    }
+
+    & span {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    & p {
+      margin-top: 5px;
+      font-size: 0.93rem;
+      float: left;
+
+    }
+
+    & a {
+      color: #9b9a9a;
+    }
+  }
+
+  & .button-cases {
+    margin-top: 0;
+    margin-bottom: 55px;
   }
 }
