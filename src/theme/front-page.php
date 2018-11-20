@@ -1,21 +1,46 @@
 <?php get_header(); ?>
 
+<?php
+$rows = get_field( 'slider' );
+$index = 0 ;
+?>
+
 <div class="slider-container">
 
+
     <div id="carouselFrontPage" class="carousel slide" data-ride="carousel">
+		<?php if ( rows ) : ?>
         <ol class="carousel-indicators">
-            <li data-target="#carouselFrontPage" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselFrontPage" data-slide-to="1"></li>
+			<?php foreach ( $rows as $row ) : ?>
+                <li data-target="#carouselFrontPage" data-slide-to="<?php echo $index;?>" class="<?php echo $index === 0 ? 'active' : ''; ?>"></li>
+			<?php $index++; endforeach; $index = 0; ?>
         </ol>
+        <?php endif; ?>
         <div class="carousel-inner">
-            <div class="carousel-item active text-center">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
-                     alt="Первый слайд">
+	        <?php foreach ( $rows as $row ) : ?>
+            <div class="carousel-item <?php echo $index === 0 ? 'active' : ''; ?>">
+
+                <div class="img-fluid" style="
+                        background: url(<?php echo wp_get_attachment_image_src($row['background'], 'full')[0]; ?>);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        height: 388px;
+                        background-position: center;
+                        ">
+                    <div class="container h-100 d-flex align-items-end flex-column justify-content-between">
+                        <div style="margin-top: 45px; float: right;">
+                            <h5><?php echo $row['header']; ?></h5>
+                            <p><?php echo $row['subheader']; ?></p>
+                        </div>
+
+                        <div class="align-self-center pl-5 ml-5 mb-5">
+                            <span><?php echo $row['description']; ?>    </span>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="carousel-item text-center">
-                <img class="ml-auto" src="<?php echo get_template_directory_uri(); ?>/img/carousel_background.png"
-                     alt="Второй слайд">
-            </div>
+            <?php $index++; endforeach; ?>
         </div>
         <a class="carousel-control-prev" href="#carouselFrontPage" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -34,7 +59,7 @@
     <h2 class="header-text text-center">КОМПАНИЯ НА РЫНКЕ УЖЕ БОЛЕЕ 15 ЛЕТ</h2>
 
     <h3 class="text-center page-header-text margin-top-section">НАШИ ПРЕИМУЩЕСТВА</h3>
-    <div class="d-flex align-items-baseline justify-content-between container-text">
+    <div class="d-flex align-items-baseline justify-content-between container-text flex-wrap">
         <div class="text-center">
             <img class="mb-auto p-2" src="<?php echo get_template_directory_uri(); ?>/img/top.png">
             <br/>
@@ -78,12 +103,12 @@
 </section>
 
 <section class="container section-develop p-0">
-    <div class="d-flex benefits-container">
+    <div class="d-flex benefits-container flex-wrap">
         <div class="develop">
             <div class="col-md-6 p-0 site">
                 <span>разработка сайтов и сервисов</span>
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/develop_site.png">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/develop_site.png">
         </div>
         <div class="context-adv">
             <div class="col-md-3 p-0 site">
@@ -92,8 +117,8 @@
             <img src="<?php echo get_template_directory_uri(); ?>/img/adv_internet.png">
         </div>
     </div>
-    <div class="d-flex mt-4 benefits-container">
-        <div class="d-flex flex-column ">
+    <div class="d-flex mt-4 benefits-container flex-wrap flex-md-nowrap">
+        <div class="d-flex flex-column flex-wrap ">
             <div class="audit">
                 <div class="col-md-4 p-0 site">
                     <span>аудиты сайта</span>
@@ -125,24 +150,24 @@
 <section class="margin-top-section">
     <h3 class="text-center page-header-text">НАШИ УСЛУГИ</h3>
 
-    <div class="d-flex w-100 container-service flex-column">
+    <div class="d-flex w-100 container-service flex-column flex-wrap">
         <div class="container p-0">
-            <div class="d-flex">
+            <div class="d-flex flex-wrap">
                 <div class="ourservice-container d-flex flex-column align-items-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/develop_site_service.png">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/develop_site_service.png">
                     <h4>создание сайтов</h4>
 
                     <div class="w-75 w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Проекты любой сложности</a>
+                        <span>Проекты любой сложности</span>
                     </div>
                     <div class="w-75 w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Интеграция стороних сервисов</a>
+                        <span>Интеграция стороних сервисов</span>
                     </div>
                     <div class="w-75 mb-auto w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Современная система управления</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Современная система управления</span>
                     </div>
 
                     <div class="align-self-end footer-service d-flex align-items-center justify-content-center">
@@ -151,24 +176,24 @@
 
                 </div>
                 <div class="ourservice-container d-flex flex-column align-items-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/seo_service.png">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/seo_service.png">
                     <h4>продвижение сайтов</h4>
 
                     <div class="w-75 w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Различные схемы продвижения</a>
+                        <span>Различные схемы продвижения</span>
+                    </div>
+                    <div class="w-75 w-block">
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Комплексный подход к проекту</span>
                     </div>
                     <div class="w-75 w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Комплексный подход к проекту</a>
-                    </div>
-                    <div class="w-75 w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Оптимальные сроки достижения результата</a>
+                        <span>Оптимальные сроки достижения результата</span>
                     </div>
                     <div class="w-75 mb-auto  w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Прозрачность всех работ</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Прозрачность всех работ</span>
                     </div>
 
 
@@ -177,24 +202,24 @@
                     </div>
                 </div>
                 <div class="ourservice-container d-flex flex-column align-items-center mr-0">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/seo_social_service.png">
+                    <img class="img-fluid"  src="<?php echo get_template_directory_uri(); ?>/img/seo_social_service.png">
                     <h4>продвижение в соцсетях</h4>
 
                     <div class="w-75 w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Охват всех популярных сетей</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Охват всех популярных сетей</span>
                     </div>
                     <div class="w-75 w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Поддержка внимания к бренду</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Поддержка внимания к бренду</span>
                     </div>
                     <div class="w-75 w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Улучшения лояльности клиентов</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Улучшения лояльности клиентов</span>
                     </div>
                     <div class="w-75 w-block mb-auto">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Привлечения трафика на сайт</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Привлечения трафика на сайт</span>
                     </div>
 
 
@@ -205,26 +230,26 @@
                 </div>
 
             </div>
-            <div class="d-flex">
+            <div class="d-flex flex-wrap">
                 <div class="ourservice-container d-flex flex-column align-items-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/adv_internet_service.png">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/adv_internet_service.png">
                     <h4>реклама в интернете</h4>
 
                     <div class="w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Яндекс.Директ</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Яндекс.Директ</span>
                     </div>
                     <div class="w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Google Adwords</a>
+                        <span>Google Adwords</span>
                     </div>
                     <div class="w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Яндекс.Маркет</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Яндекс.Маркет</span>
                     </div>
                     <div class="w-block mb-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Медийная (банерная) реклама</a>
+                        <span>Медийная (банерная) реклама</span>
                     </div>
 
                     <div class="footer-service d-flex align-items-center justify-content-center">
@@ -232,25 +257,25 @@
                     </div>
                 </div>
                 <div class="ourservice-container d-flex flex-column align-items-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/firm_style_service.png">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/firm_style_service.png">
                     <h4>фирменный стиль</h4>
 
                     <div class="w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Логотип</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Логотип</span>
                     </div>
                     <div class="w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Фирменный бланк</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Фирменный бланк</span>
                     </div>
                     <div class="w-block">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Конверт</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Конверт</span>
                     </div>
 
                     <div class="w-block mb-auto">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Визитка</a>
+                        <img  src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
+                        <span>Визитка</span>
                     </div>
 
                     <div class="footer-service d-flex align-items-center justify-content-center">
@@ -258,24 +283,24 @@
                     </div>
                 </div>
                 <div class="ourservice-container d-flex flex-column align-items-center mr-0">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/support_site_service.png">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/support_site_service.png">
                     <h4>поддержка сайтов</h4>
 
                     <div class="w-75 w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Хостинг</a>
+                        <span>Хостинг</span>
                     </div>
                     <div class="w-75 w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Системной администрирование</a>
+                        <span>Системной администрирование</span>
                     </div>
                     <div class="w-75 w-block">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Контент-менеджмент</a>
+                        <span>Контент-менеджмент</span>
                     </div>
                     <div class="w-75 w-block mb-auto">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/arrow_down.png">
-                        <a href="#">Копирайтинг</a>
+                        <span>Копирайтинг</span>
                     </div>
                     <div class="footer-service d-flex align-items-center justify-content-center">
                         <span>От 2 000 руб.</span>
@@ -284,11 +309,11 @@
 
             </div>
         </div>
-        <button class="align-self-end align-self-center button mt-auto mb-auto">оставить заявку</button>
+        <button class="align-self-end align-self-center button">оставить заявку</button>
     </div>
 </section>
 
-<?php get_template_part('partials/content','cases'); ?>
+<?php get_template_part( 'partials/content', 'cases' ); ?>
 
 <section class="contact-form-contaier margin-top-section">
 
@@ -363,22 +388,22 @@
     </div>
 </section>
 
-<?php get_template_part('partials/content', 'clients'); ?>
+<?php get_template_part( 'partials/content', 'clients' ); ?>
 
-<section class="margin-top-section">
+<section class="margin-top-section" style="margin-bottom: 49px">
     <h3 class="align-self-center page-header-text mt-md-3 mb-md-5">наши представительства</h3>
 
     <div class="container">
         <div class="row">
-        <div class="col-md-4 text-center">
-            <p>г. Тула, пр-т Ленина, 87/3</p>
-        </div>
-        <div class="col-md-4 text-center ">
-            <p>г. Москва,<br> ул. Ярославская, д. 8, <br>корпус 7</p>
-        </div>
-        <div class="col-md-4 text-center">
-            <p>г. Санкт-Петербург,<br>Политихническая 29,<br>(м. Политехническая)</p>
-        </div>
+            <div class="col-md-4 text-center">
+                <p>г. Тула, пр-т Ленина, 87/3</p>
+            </div>
+            <div class="col-md-4 text-center ">
+                <p>г. Москва,<br> ул. Ярославская, д. 8, <br>корпус 7</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <p>г. Санкт-Петербург,<br>Политихническая 29,<br>(м. Политехническая)</p>
+            </div>
         </div>
     </div>
 

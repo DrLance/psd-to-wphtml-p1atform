@@ -1,0 +1,92 @@
+@media screen and (max-width: 750px) {
+   h3 {
+    font-size: 1.75rem !important;
+  }
+
+  .benefits-container {
+    & span {
+      font-size: 1rem !important;
+    }
+  }
+
+
+  .develop {
+      width: 100vw !important;
+      margin: 0 !important;
+      height: 40vh !important;
+
+      & img {
+        left: 30% !important;
+      }
+    }
+
+    .context-adv {
+      width: 100vw !important;
+      height: 40vh !important;
+      margin: 0 !important;
+
+      & img {
+        left: 30% !important;
+      }
+    }
+
+    .audit {
+      width: 100vw !important;
+      margin: 0 !important;
+      height: 40vh !important;
+
+      & img {
+        left: 30% !important;
+      }
+    }
+
+    .seo {
+      width: 100vw !important;
+      margin: 0 !important;
+      height: 40vh !important;
+
+      & img {
+        left: 30% !important;
+      }
+    }
+
+    .support {
+      width: 100vw !important;
+      margin: 0 !important;
+      height: 40vh !important;
+
+      & img {
+        left: 30% !important;
+      }
+    }
+
+    .adv {
+      width: 100vw !important;
+      margin: 0 !important;
+      height: 40vh !important;
+
+      & img {
+        left: 30% !important;
+      }
+    }
+
+  .project-team-container {
+    width: 100vw !important;
+
+    & .items-container {
+      padding: 0;
+
+      & .item-container {
+        & span {
+          font-size: 0.65rem;
+        }
+
+        & p {
+          font-size: 0.5rem;
+        }
+      }
+    }
+
+  }
+
+}

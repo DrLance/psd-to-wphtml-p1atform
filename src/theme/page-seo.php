@@ -6,8 +6,8 @@
              background-position: center;
              ">
     <div class="main-block container">
-        <div class="col-md-7 offset-3">
-            <h4 class="pt-md-3">SEO. Продвижение сайтов в ТОП 10 Яндекс и Google</h4>
+        <div class="col-7 offset-3">
+            <h4 class="pt-3">SEO. Продвижение сайтов в ТОП 10 Яндекс и Google</h4>
             <p>Узнать стоимость и сроки продвижения ващего сайта</p>
         </div>
 
@@ -15,7 +15,7 @@
 			<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
         </div>
 
-        <div class="main-block-footer d-flex justify-content-md-around align-items-md-baseline">
+        <div class="main-block-footer d-flex justify-content-around align-items-baseline flex-wrap">
             <div>
                 <img src="<?php echo get_template_directory_uri() . '/img/seo/seo_limit.png' ?>">
                 <p>Продвижение без <br> ограничений запросов</p>
@@ -42,10 +42,10 @@
     <h3 class="text-center page-header-text margin-top-section">как мы работает</h3>
 
     <div class="we-work-container">
-        <div class="d-flex flex-row justify-content-md-between row-item">
-            <div class="d-flex flex-row align-items-md-center ">
-                <div class="d-flex flex-column align-items-md-center first-item">
-                    <img src="<?php echo get_template_directory_uri() . '/img/seo/1_ico.png' ?>">
+        <div class="d-flex flex-row justify-content-between row-item flex-wrap flex-md-nowrap">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center first-item">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/1_ico.png' ?>">
                     <label>seo-аудит<br>сайта</label>
                 </div>
                 <div class="item-block">
@@ -53,18 +53,18 @@
                     <span>1</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center second-item">
-                    <img src="<?php echo get_template_directory_uri() . '/img/seo/2_ico.png' ?>">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center second-item">
+                    <img lass="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/2_ico.png' ?>">
                     <label>юзабилити<br>аудит</label>
                 </div>
                 <div class="item-block">
-                    <img src="<?php echo get_template_directory_uri() . '/img/seo/2.png' ?>">
+                    <img lass="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/2.png' ?>">
                     <span>2</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center third-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center third-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/3_ico.png' ?>">
                     <label>составление<br>семантического<br>ядра</label>
                 </div>
@@ -73,8 +73,8 @@
                     <span>3</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center third-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center third-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/4_ico.png' ?>">
                     <label>анализ<br>конкурентов</label>
                 </div>
@@ -83,8 +83,8 @@
                     <span>4</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center third-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center third-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/5_ico.png' ?>">
                     <label>оптимизация<br>сайтов</label>
                 </div>
@@ -94,9 +94,9 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-row justify-content-md-between row-item">
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center first-item">
+        <div class="d-flex flex-row justify-content-between row-item flex-wrap flex-md-nowrap">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center first-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/6_ico.png' ?>">
                     <label>подготовка контента</label>
                 </div>
@@ -105,8 +105,8 @@
                     <span>6</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center second-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center second-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/7_ico.png' ?>">
                     <label>продвижение сайта</label>
                 </div>
@@ -115,8 +115,8 @@
                     <span>7</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center third-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center third-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/8_ico.png' ?>">
                     <label>настройка конверсий</label>
                 </div>
@@ -125,8 +125,8 @@
                     <span>8</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center third-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center third-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/9_ico.png' ?>">
                     <label>проверка позиций</label>
                 </div>
@@ -135,8 +135,8 @@
                     <span>9</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center third-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center third-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/10_ico.png' ?>">
                     <label>контекстная реклама</label>
                 </div>
@@ -146,9 +146,9 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-row row-item row-last-item">
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center second-item">
+        <div class="d-flex flex-row row-item row-last-item flex-wrap flex-md-nowrap">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center second-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/11_ico.png' ?>">
                     <label>медийная<br>реклама</label>
                 </div>
@@ -157,8 +157,8 @@
                     <span>11</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center second-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center second-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/12_ico.png' ?>">
                     <label>smm продвижение в соцсетях</label>
                 </div>
@@ -167,8 +167,8 @@
                     <span>12</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center second-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center second-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/13_ico.png' ?>">
                     <label>детальный отчет</label>
                 </div>
@@ -177,8 +177,8 @@
                     <span>13</span>
                 </div>
             </div>
-            <div class="d-flex flex-row align-items-md-center">
-                <div class="d-flex flex-column align-items-md-center second-item">
+            <div class="d-flex flex-row align-items-center">
+                <div class="d-flex flex-column align-items-center second-item">
                     <img src="<?php echo get_template_directory_uri() . '/img/seo/14_ico.png' ?>">
                     <label>попадание в топ</label>
                 </div>
@@ -350,7 +350,7 @@
 
     <div class="container">
         <div class="project-team-container d-flex flex-column">
-            <div class="items-container d-flex flex-row flex-wrap">
+            <div class="items-container d-flex flex-row flex-wrap align-items-center">
                 <div class="item-container col-3">
                     <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/team_item.png' ?>">
                     <span>оптимизатор</span>

@@ -49,6 +49,22 @@
   background-color: #30bbfb;
 }
 
+.carousel-inner {
+  font-family: 'Open Sans';
+  color: #fff;
+
+  & h5 {
+    font-size: 2.6rem;
+    font-family: "Open Sans";
+    color: rgb(48, 187, 251);
+    line-height: 1.2;
+  }
+
+  & p {
+    float: right;
+  }
+}
+
 .benefits-container {
   background-color: #fff;
 
@@ -61,7 +77,7 @@
     &
     span {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: var(--font-text);
     }
 
@@ -87,7 +103,7 @@
     &
     span {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: var(--font-text);
     }
 
@@ -114,7 +130,7 @@
     &
     span {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: var(--font-text);
     }
 
@@ -141,7 +157,7 @@
     &
     span {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: var(--font-text);
     }
 
@@ -168,7 +184,7 @@
     &
     span {
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 1.25rem;
       font-family: var(--font-text);
     }
 
@@ -218,7 +234,7 @@
 }
 
 .container-service {
-  height: 1280px;
+
   background-color: #bbe2f3;
   margin-top: 50px;
 
@@ -232,6 +248,8 @@
     text-transform: uppercase;
     font-family: 'Open Sans';
     font-size: 14.55px;
+    margin-top: 55px;
+    margin-bottom: 55px;
   }
 }
 
@@ -262,6 +280,7 @@
     width: 50%;
     font-family: 'Open Sans';
     color: #000;
+
   }
 
   & .footer-service {
@@ -395,15 +414,19 @@
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 600;
+    color: #000;
+
   }
 
   & span {
     font-size: 16px;
+    color: #000;
   }
 
   & p {
     margin-top: 30px;
     margin-bottom: 41px;
+    color: #000;
   }
 
   & .shadow-reviews {
@@ -415,7 +438,6 @@
   }
 
 }
-
 
 /***********************SEO HEADER***************************/
 .contact-form-top {
@@ -597,7 +619,6 @@
     margin-right: 18px;
   }
 }
-
 
 /**********************FINANCE WARRANTY **************************/
 .finance-warranty-container {
@@ -789,7 +810,6 @@
   }
 }
 
-
 /************************ SEO ***************************/
 
 .seo-container {
@@ -857,7 +877,6 @@
       padding: 0;
       width: auto;
     }
-
 
     & input {
       border: none;
