@@ -4,7 +4,7 @@
     <h1 class="align-self-center page-header-text"><?php the_title(); ?></h1>
 	<?php the_content(); ?>
 
-    <div class="contacts-container container-970 margin-top-55 d-flex flex-row justify-content-between">
+    <div class="contacts-container container-970 margin-top-55 d-flex flex-row justify-content-between flex-wrap">
         <div>
             <div class="d-flex flex-column info-container">
                 <p>Адрес:</p>

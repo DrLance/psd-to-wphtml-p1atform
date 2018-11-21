@@ -18,7 +18,7 @@
         <div class="item margin-top-55">
 
             <div class="sub-item container-970">
-                <img src="<?php echo get_template_directory_uri() . '/img/akcii/seo_site.png' ?>" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/akcii/seo_site.png' ?>" />
                 <p class="order-seo">При оплате 3-х месяцев</p>
                 <h4 class="h4-seo">seo<span>-продвижения</span></h4>
                 <p class="seo-year">до конца года 4 месяц <span>БЕСПЛАТНО</span></p>
@@ -28,7 +28,7 @@
         <div class="item margin-top-55">
 
             <div class="sub-item container-970">
-                <img src="<?php echo get_template_directory_uri() . '/img/akcii/discount_10.png' ?>" />
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/akcii/discount_10.png' ?>" />
                 <h4 class="discount-header">скидка 10%</h4>
                 <p class="discount-description">при комплексной настройке</p>
 

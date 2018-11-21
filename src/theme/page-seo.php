@@ -55,11 +55,11 @@
             </div>
             <div class="d-flex flex-row align-items-center">
                 <div class="d-flex flex-column align-items-center second-item">
-                    <img lass="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/2_ico.png' ?>">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/2_ico.png' ?>">
                     <label>юзабилити<br>аудит</label>
                 </div>
                 <div class="item-block">
-                    <img lass="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/2.png' ?>">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/2.png' ?>">
                     <span>2</span>
                 </div>
             </div>
@@ -193,13 +193,13 @@
 
 <section class="margin-top-section">
     <h3 class="text-center page-header-text ">тарифы</h3>
-    <div class="tariff-container d-md-flex flex-md-row justify-content-md-center">
+    <div class="tariff-container d-flex flex-row justify-content-center flex-wrap">
         <div class="item-tariff">
-            <div class="item-tarif-header d-md-flex flex-md-column align-items-md-center justify-content-md-center">
+            <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
                 <h4>молодой<br>сайт</h4>
                 <span>от 15 0000 руб.</span>
             </div>
-            <div class="item-tariff-footer d-md-flex flex-md-column align-items-md-center justify-content-md-between">
+            <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
                 <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
                     продвигавшегося сайта</p>
 
@@ -207,11 +207,11 @@
             </div>
         </div>
         <div class="item-tariff">
-            <div class="item-tarif-header d-md-flex flex-md-column align-items-md-center justify-content-md-center">
+            <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
                 <h4>молодой<br>сайт</h4>
                 <span>от 15 0000 руб.</span>
             </div>
-            <div class="item-tariff-footer d-md-flex flex-md-column align-items-md-center justify-content-md-between">
+            <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
                 <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
                     продвигавшегося сайта</p>
 
@@ -219,11 +219,11 @@
             </div>
         </div>
         <div class="item-tariff">
-            <div class="item-tarif-header d-md-flex flex-md-column align-items-md-center justify-content-md-center">
+            <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
                 <h4>молодой<br>сайт</h4>
                 <span>от 15 0000 руб.</span>
             </div>
-            <div class="item-tariff-footer d-md-flex flex-md-column align-items-md-center justify-content-md-between">
+            <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
                 <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
                     продвигавшегося сайта</p>
 
@@ -231,11 +231,11 @@
             </div>
         </div>
         <div class="item-tariff">
-            <div class="item-tarif-header d-md-flex flex-md-column align-items-md-center justify-content-md-center">
+            <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
                 <h4>молодой<br>сайт</h4>
                 <span>от 15 0000 руб.</span>
             </div>
-            <div class="item-tariff-footer d-md-flex flex-md-column align-items-md-center justify-content-md-between">
+            <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
                 <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
                     продвигавшегося сайта</p>
 
@@ -243,11 +243,11 @@
             </div>
         </div>
         <div class="item-tariff">
-            <div class="item-tarif-header d-md-flex flex-md-column align-items-md-center justify-content-md-center">
+            <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
                 <h4>молодой<br>сайт</h4>
                 <span>от 15 0000 руб.</span>
             </div>
-            <div class="item-tariff-footer d-md-flex flex-md-column align-items-md-center justify-content-md-between">
+            <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
                 <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
                     продвигавшегося сайта</p>
 

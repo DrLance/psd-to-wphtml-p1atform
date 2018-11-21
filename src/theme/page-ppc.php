@@ -4,8 +4,8 @@
     <div class="text-center">
         <div class="main-block container pr-0 pl-0 ppc-block">
 
-            <div class="col-md-7 offset-3">
-                <h4 class="pt-md-3">PPC. Контекстная реклама</h4>
+            <div class="col-7 offset-3">
+                <h4 class="pt-3">PPC. Контекстная реклама</h4>
             </div>
 
             <p class="mt-5">Получите коммерческое предложение по контекстной рекламе в течение часа</p>
@@ -14,7 +14,7 @@
 				<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
             </div>
 
-            <div class="main-block-footer container-970 d-flex justify-content-md-around align-items-md-baseline">
+            <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline">
                 <div>
                     <img src="<?php echo get_template_directory_uri() . '/img/ppc/fast_analyz.png' ?>">
                     <p>Быстрый анализ и<br>подготовка стратегии</p>
@@ -106,7 +106,7 @@
     <h3 class="text-center page-header-text ">эффективность работы</h3>
 
     <div class="container-970 ppc-work-container margin-top-55">
-        <div class="cooperation-container d-flex justify-content-between">
+        <div class="cooperation-container d-flex flex-row justify-content-between flex-wrap ">
             <div class="item">
                 <p>Подготовка к рекламной кампании</p>
                 <div class="arrow-container">
@@ -201,8 +201,8 @@
     <h3 class="text-center page-header-text ">тарифы</h3>
 
     <div class="container-970">
-        <div class="smm-tariffs-container">
-            <table class="w-100 mt-5">
+        <div class="smm-tariffs-container table-responsive">
+            <table class="w-100 mt-5 table-responsive">
                 <thead>
                 <tr class="text-center">
                     <th>услуги</th>

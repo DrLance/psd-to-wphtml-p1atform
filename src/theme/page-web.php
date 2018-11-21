@@ -4,8 +4,8 @@
         <div class="text-center">
             <div class="main-block container web-block">
 
-                <div class="col-md-7 offset-3">
-                    <h4 class="pt-md-3">WEB. Разработка<br>сайтов любой сложности</h4>
+                <div class="col-7 offset-3">
+                    <h4 class="pt-3">WEB. Разработка<br>сайтов любой сложности</h4>
                 </div>
 
                 <p class="mt-5">Получите коммерческое предложение по контекстной рекламе в течение часа</p>
@@ -14,7 +14,7 @@
 					<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
                 </div>
 
-                <div class="main-block-footer container-970 d-flex justify-content-md-around align-items-md-baseline">
+                <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline flex-wrap">
                     <div>
                         <img src="<?php echo get_template_directory_uri() . '/img/web/more_15.png' ?>">
                         <p>Более 15 лет<br>работы</p>
@@ -41,7 +41,7 @@
         <h3 class="text-center page-header-text ">основные этапы разработки сайта</h3>
 
         <div class="container-970 ppc-work-container margin-top-55">
-            <div class="cooperation-container d-flex justify-content-between">
+            <div class="cooperation-container d-flex justify-content-between flex-wrap">
                 <div class="item">
                     <p>заключение договора и начало работ</p>
                     <div class="arrow-container">
@@ -242,7 +242,7 @@
                 </figure>
 
             </div>
-            <div class="cooperation-container margin-top-55 flex-row d-flex align-items-baseline justify-content-center">
+            <div class="cooperation-container margin-top-55 flex-row d-flex align-items-baseline justify-content-center flex-wrap">
 
                 <figure class="figure text-center pr-5">
                     <img class="figure-img img-fluid"
@@ -267,7 +267,7 @@
 
     <section class="container section-develop p-0">
         <h3 class="text-center page-header-text ">тарифы</h3>
-        <div class="d-flex benefits-container margin-top-55">
+        <div class="d-flex benefits-container margin-top-55 flex-wrap">
             <div class="develop">
                 <div class="col-md-6 p-0 site">
                     <span>интернет магазин</span>
@@ -283,7 +283,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/img/web/site_visitka_t.png">
             </div>
         </div>
-        <div class="d-flex mt-4 benefits-container">
+        <div class="d-flex mt-4 benefits-container flex-wrap flex-md-nowrap">
             <div class="d-flex flex-column ">
                 <div class="audit">
                     <div class="col-md-4 p-0 site">

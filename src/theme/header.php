@@ -10,10 +10,10 @@
 <body <?php body_class(); ?>>
 <header>
     <div class="container">
-        <div class="d-flex justify-content-md-between mt-4 flex-wrap align-items-center justify-content-center">
+        <div class="d-flex justify-content-between mt-4 flex-wrap align-items-center justify-content-center">
             <div>
                 <a href="<?php echo home_url(); ?>" class="logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo 🌈">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo 🌈">
                 </a>
             </div>
             <div class="d-flex align-items-center flex-column text-center">

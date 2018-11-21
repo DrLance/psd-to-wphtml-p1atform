@@ -3,8 +3,8 @@
     <div class="text-center">
         <div class="main-block container mobile-block">
 
-            <div class="col-md-7 offset-3">
-                <h4 class="pt-md-3">Mobile. Разработка<br>мобильных приложений</h4>
+            <div class="col-7 offset-3">
+                <h4 class="pt-3">Mobile. Разработка<br>мобильных приложений</h4>
             </div>
 
             <p class="mt-5">Получите коммерческое предложение</p>
@@ -13,7 +13,7 @@
 				<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
             </div>
 
-            <div class="main-block-footer container-970 d-flex justify-content-md-around align-items-md-baseline">
+            <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline">
                 <div>
                     <img src="<?php echo get_template_directory_uri() . '/img/mobile/fix_price.png' ?>">
                     <p>Фиксированная<br>цена</p>
@@ -35,8 +35,7 @@
     <h3 class="text-center page-header-text ">что такое мобильное приложение?</h3>
     <p class="text-center sub-header">Ваш сервис в каждом мобильном устройстве</p>
     <hr class="mx-auto"/>
-
-    <div class="container-970 whats-mobile-container d-flex flex-row justify-content-between align-items-start">
+    <div class="container-970 whats-mobile-container d-flex flex-row justify-content-between align-items-start flex-wrap flex-md-nowrap">
         <div class="position-relative">
             <img src="<?php echo get_template_directory_uri() . '/img/mobile/whats_is_mobile.png' ?>">
             <span class="number1">1</span>

@@ -4,8 +4,8 @@
     <div class="text-center">
         <div class="main-block container pr-0 pl-0 smm-block">
 
-            <div class="col-md-7 offset-3 ">
-                <h4 class="pt-md-3">SMM. Продвижение в социальный сетях</h4>
+            <div class="col-7 offset-3 ">
+                <h4 class="pt-3">SMM. Продвижение в социальный сетях</h4>
                 <p>Узнать стоимость продвижение в социальный сетях</p>
             </div>
 
@@ -13,7 +13,7 @@
 				<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
             </div>
 
-            <div class="main-block-footer container-970 d-flex justify-content-md-around align-items-md-baseline">
+            <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline">
                 <div>
                     <img src="<?php echo get_template_directory_uri() . '/img/smm/increase_sales.png' ?>">
                     <p>Увеличение<br>роста продаж</p>
@@ -157,7 +157,7 @@
     <h3 class="text-center page-header-text ">тарифы</h3>
 
     <div class="container-970">
-        <div class="smm-tariffs-container">
+        <div class="smm-tariffs-container table-responsive">
             <table class="w-100">
                 <thead>
                 <tr class="text-center">

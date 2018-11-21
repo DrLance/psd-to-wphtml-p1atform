@@ -1,7 +1,7 @@
 <footer class="footer">
     <section class="container">
         <div class="items row">
-            <div class="col-4">
+            <div class="col-md-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo_footer.png">
                 <p class="mt-4">2003 - 2018 P1ATFORM<br>Продвижение и создание сайтов</p>
                 <ul>

@@ -1,5 +1,6 @@
 @media screen and (max-width: 750px) {
-   h3 {
+
+  h3 {
     font-size: 1.75rem !important;
   }
 
@@ -9,66 +10,65 @@
     }
   }
 
-
   .develop {
-      width: 100vw !important;
-      margin: 0 !important;
-      height: 40vh !important;
+    width: 100vw !important;
+    margin: 0 !important;
+    height: 40vh !important;
 
-      & img {
-        left: 30% !important;
-      }
+    & img {
+      left: 30% !important;
     }
+  }
 
-    .context-adv {
-      width: 100vw !important;
-      height: 40vh !important;
-      margin: 0 !important;
+  .context-adv {
+    width: 100vw !important;
+    height: 40vh !important;
+    margin: 0 !important;
 
-      & img {
-        left: 30% !important;
-      }
+    & img {
+      left: 30% !important;
     }
+  }
 
-    .audit {
-      width: 100vw !important;
-      margin: 0 !important;
-      height: 40vh !important;
+  .audit {
+    width: 100vw !important;
+    margin: 0 !important;
+    height: 40vh !important;
 
-      & img {
-        left: 30% !important;
-      }
+    & img {
+      left: 30% !important;
     }
+  }
 
-    .seo {
-      width: 100vw !important;
-      margin: 0 !important;
-      height: 40vh !important;
+  .seo {
+    width: 100vw !important;
+    margin: 0 !important;
+    height: 40vh !important;
 
-      & img {
-        left: 30% !important;
-      }
+    & img {
+      left: 30% !important;
     }
+  }
 
-    .support {
-      width: 100vw !important;
-      margin: 0 !important;
-      height: 40vh !important;
+  .support {
+    width: 100vw !important;
+    margin: 0 !important;
+    height: 40vh !important;
 
-      & img {
-        left: 30% !important;
-      }
+    & img {
+      left: 30% !important;
     }
+  }
 
-    .adv {
-      width: 100vw !important;
-      margin: 0 !important;
-      height: 40vh !important;
+  .adv {
+    width: 100vw !important;
+    margin: 0 !important;
+    height: 40vh !important;
 
-      & img {
-        left: 30% !important;
-      }
+    & img {
+      left: 30% !important;
     }
+  }
 
   .project-team-container {
     width: 100vw !important;
@@ -86,7 +86,194 @@
         }
       }
     }
-
   }
 
+  .finance-warranty-container {
+    background-size: contain !important;
+
+    & span {
+      font-size: 10px !important;
+    }
+  }
+
+  .form-сontract-container {
+    height: 40vh !important;
+  }
+
+  .main-block {
+    & h4 {
+
+      font-size: 30px !important;
+    }
+  }
+
+  .ppc-work-container {
+
+    line-height: 1;
+
+    & p {
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      color: var(--main-color);
+      text-align: center;
+    }
+
+    & .item {
+      width: 40vw;
+
+      & .arrow-container {
+        width: 40vw;
+        height: 40vh;
+        background-size: cover;
+        font-size: 0.35rem;
+
+        & div {
+          margin: 5px;
+        }
+
+      }
+    }
+  }
+
+  .direction-develop-container {
+    display: flex;
+    align-items: center;
+
+    & div:first-child {
+      align-items: center;
+      justify-content: center !important;
+    }
+  }
+
+  .cooperation-container {
+    justify-content: center !important;
+    & .item {
+
+
+      & .arrow-container {
+        height: 60vw;
+        background-size: cover !important;
+      }
+    }
+  }
+
+  .benefits-container {
+    & div {
+      width: 100vw !important;
+    }
+  }
+
+  .whats-mobile-container {
+    & .position-relative {
+      & img:first-child {
+        width: 100vw;
+      }
+
+      & span {
+        font-size: 18px !important;
+      }
+
+      & .description1 {
+        font-size: 10px !important;
+      }
+
+      & .description2 {
+        font-size: 10px !important;
+      }
+
+      & .description3 {
+        font-size: 10px !important;
+      }
+
+      & .description4 {
+        font-size: 10px !important;
+      }
+    }
+  }
+
+  .rocket-container {
+
+    height: 50vh !important;
+    width: 100vw !important;
+    background-size: contain !important;
+
+    & .text-center {
+      display: none;
+    }
+  }
+
+  .list-akcii-container {
+    font-size: 10px !important;
+
+    & h4 {
+      font-size: 1em !important;
+    }
+
+    & span {
+      font-size: 10px !important;
+    }
+
+    & p {
+      font-size: 1em !important;
+      margin: 0;
+    }
+
+    & .item {
+      height: 13vh !important;
+    }
+  }
+
+  .menu-container {
+    & .container {
+      padding: 0;
+      margin: 0;
+
+    }
+    & ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      flex-wrap: wrap;
+
+      & li {
+        display: flex;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 10px !important;
+
+        & span {
+          margin: 0px 5px;
+        }
+      }
+    }
+  }
+
+  .footer {
+
+    height: auto;
+
+    & .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & div {
+        width: 100vw !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+    }
+  }
+
+  header {
+    & div {
+      width: 100vw;
+    }
+  }
+
+  div {
+    overflow: hidden !important;
+  }
 }
