@@ -45,7 +45,7 @@
                 <div class="item">
                     <p>заключение договора и начало работ</p>
                     <div class="arrow-container">
-                        <div class="d-flex flex-row align-items-baseline">
+                        <div class="d-flex flex-row align-items-baseline mt-4">
                             <div>
                                 <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                             </div>
@@ -76,7 +76,7 @@
                 <div class="item">
                     <p>выбор и <br>разработка дизайна сайта</p>
                     <div class="arrow-container">
-                        <div class="d-flex flex-row align-items-baseline">
+                        <div class="d-flex flex-row align-items-baseline mt-4">
                             <div>
                                 <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                             </div>
@@ -105,7 +105,7 @@
                 <div class="item">
                     <p>Верстка, настройка cms, программирование</p>
                     <div class="arrow-container">
-                        <div class="d-flex flex-row align-items-baseline">
+                        <div class="d-flex flex-row align-items-baseline mt-4">
                             <div>
                                 <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                             </div>
@@ -128,7 +128,7 @@
                 <div class="item">
                     <p>окончание работ, тестирование, закрытие договора</p>
                     <div class="arrow-container">
-                        <div class="d-flex flex-row align-items-baseline">
+                        <div class="d-flex flex-row align-items-baseline mt-4">
                             <div>
                                 <img src="<?php echo get_template_directory_uri() . '/img/ppc/arrow.png' ?>">
                             </div>

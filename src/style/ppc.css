@@ -130,16 +130,16 @@
       align-items: start;
       background: url('img/ppc/effencive_work_background.png');
       background-repeat: no-repeat;
-
       height: 395px;
 
       & div {
-        margin-top: 1rem;
+        margin-top: 5px;
         margin-left: 0.5rem;
       }
 
       & span {
         margin-left: 2px;
+        margin-right: 5px;
         color: #fff;
       }
     }

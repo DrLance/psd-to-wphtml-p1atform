@@ -59,7 +59,7 @@
                     <label>юзабилити<br>аудит</label>
                 </div>
                 <div class="item-block">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/seo/2.png' ?>">
+                    <img src="<?php echo get_template_directory_uri() . '/img/seo/2.png' ?>">
                     <span>2</span>
                 </div>
             </div>
@@ -208,48 +208,44 @@
         </div>
         <div class="item-tariff">
             <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
-                <h4>молодой<br>сайт</h4>
-                <span>от 15 0000 руб.</span>
+                <h4>продвижение<br>по позициям</h4>
+                <span>от 30 0000 руб.</span>
             </div>
             <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
-                <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
-                    продвигавшегося сайта</p>
+                <p>Продвижение по ключевым запросам, выделенным из семантического ядра, с целью выхода их в ТОП поисковой выдачи</p>
 
                 <a class="btn" href="#">заказать</a>
             </div>
         </div>
         <div class="item-tariff">
             <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
-                <h4>молодой<br>сайт</h4>
-                <span>от 15 0000 руб.</span>
+                <h4>продвижение<br>по трафику</h4>
+                <span>от 0,30 руб.</span>
             </div>
             <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
-                <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
-                    продвигавшегося сайта</p>
+                <p>Одновременное продвижение по неограниченному списку запросов для увеличения количества целевых посетителей сайта</p>
 
                 <a class="btn" href="#">заказать</a>
             </div>
         </div>
         <div class="item-tariff">
             <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
-                <h4>молодой<br>сайт</h4>
-                <span>от 15 0000 руб.</span>
+                <h4>продвижение<br>сайта<br>по всему миру</h4>
+                <span>от 70 0000 руб.</span>
             </div>
             <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
-                <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
-                    продвигавшегося сайта</p>
+                <p>Комплексное продвижение сайта по 4 и более странам.</p>
 
                 <a class="btn" href="#">заказать</a>
             </div>
         </div>
         <div class="item-tariff">
             <div class="item-tarif-header d-flex flex-column align-items-center justify-content-center">
-                <h4>молодой<br>сайт</h4>
-                <span>от 15 0000 руб.</span>
+                <h4>комплексное<br>продвижение<br>сайта</h4>
+                <span>от 25 0000 руб.</span>
             </div>
             <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
-                <p>Оптимальный набор работ и инструментов для продвижения только что созданного или ранее не
-                    продвигавшегося сайта</p>
+                <p>Самый быстрый способ увеличения количества посетителей сайта, вывод ресурса в ТОП выдачи "Яндекс" и Google</p>
 
                 <a class="btn" href="#">заказать</a>
             </div>

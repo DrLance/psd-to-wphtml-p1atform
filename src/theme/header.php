@@ -18,7 +18,7 @@
             </div>
             <div class="d-flex align-items-center flex-column text-center">
                 <a class="tel-text" href="#">+7 495 000 00 00</a>
-                <button class="button mt-1">ЗАКАЗАТЬ</button>
+                <button id="showPopupForm" class="button mt-1">ЗАКАЗАТЬ</button>
             </div>
         </div>
     </div>
@@ -42,6 +42,11 @@
 				'walker'         => '',
 			) ); ?>
         </div>
+    </div>
+
+    <div id="popUpForm" class="popup-container" style="display: none">
+        <h6>ЗАПОЛНИТЕ ФОРМУ,<br>И МЫ СВЯЖЕМСЯ С ВАМИ<br> В ТЕЧЕНИИ ЧАСА</h6>
+		<?php echo do_shortcode( '[contact-form-7 id="63" title="Стоимость и продвежение"]' ) ?>
     </div>
 
 </header>
