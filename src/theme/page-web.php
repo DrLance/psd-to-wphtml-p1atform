@@ -202,8 +202,10 @@
                     <p>Lorem ipsum dolor sit amet loremamet loremamet lorem </p>
                     <a href="#">заказать</a>
                 </div>
-                <div class="form-container">
-
+                <div class="form-container d-flex justify-content-center flex-column align-items-center">
+                    <h5>У вас индивидуальный проект?</h5>
+                    <p>Давайте обсудим!</p>
+	                <?php echo do_shortcode( '[contact-form-7 id="112"]' ); ?>
                 </div>
             </div>
         </div>

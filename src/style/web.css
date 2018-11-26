@@ -63,6 +63,87 @@
 
   & .form-container {
     width: 48.5%;
+
+    & h5 {
+      font-size: 1.25rem;
+      color: #2375aa;
+    }
+
+    & p {
+      font-size: 1rem;
+    }
+
+    & .wpcf7-form p {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & .wpcf7-not-valid-tip {
+        display: none;
+      }
+
+      & .ajax-loader {
+        display: none;
+      }
+
+      & .wpcf7-list-item {
+        margin: 0;
+      }
+
+      & .wpcf7-response-output {
+        position: absolute;
+        color: #fb3030;
+        top: 99%;
+        left: 0%;
+        margin: 0;
+        padding: 0;
+        width: auto;
+      }
+
+      & input {
+        border: none;
+        border-radius: 2px;
+        height: 35px;
+        font-size: 0.75rem;
+        color: #7d7d7d;
+        padding-left: 10px;
+        margin-bottom: 15px;
+      }
+
+
+      & input[type=submit] {
+        border: none;
+        border-radius: 2px;
+        height: 35px;
+        color: #fff;
+        background-color: #fb3030;
+        text-transform: uppercase;
+        font-size: 1rem;
+        margin-bottom: 0;
+        margin-top: 20px;
+      }
+
+
+      & input[type=checkbox] {
+        height: 14px;
+        margin: 0;
+        vertical-align: middle;
+
+      }
+
+      & .politic {
+        font-size: 0.625rem;
+        vertical-align: middle;
+        margin: 0;
+      }
+
+      & .checkbox-121 {
+        width: 63%;
+      }
+
+    }
   }
 }
 
