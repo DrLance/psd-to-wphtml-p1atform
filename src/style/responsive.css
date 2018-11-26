@@ -282,4 +282,11 @@
   div {
     overflow: hidden !important;
   }
+
+  .popup-container {
+    width: 100vw;
+    top: 25%;
+    left: 0%;
+
+  }
 }

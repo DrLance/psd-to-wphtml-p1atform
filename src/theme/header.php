@@ -17,7 +17,7 @@
                 </a>
             </div>
             <div class="d-flex align-items-center flex-column text-center">
-                <a class="tel-text" href="#">+7 495 000 00 00</a>
+                <a class="tel-text" href="tel:+74950000000">+7 495 000 00 00</a>
                 <button id="showPopupForm" class="button mt-1">ЗАКАЗАТЬ</button>
             </div>
         </div>
