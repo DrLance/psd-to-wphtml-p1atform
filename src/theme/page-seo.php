@@ -1,12 +1,14 @@
 <?php get_header(); ?>
 
-<div class="slider-container text-center"
-     style="background-image: url(<?php echo get_template_directory_uri() . '/img/seo/background.png' ?>);
-             background-repeat: no-repeat;
-             background-position: center;
-             ">
+<div class="slider-container text-center">
+    <div style="background-image: url(<?php echo get_template_directory_uri() . '/img/seo/background.png' ?>);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 0.5;
+            "></div>
     <div class="main-block container">
-        <div class="col-7 offset-3">
+        <div class="col-md-7 offset-md-3">
             <h4 class="pt-3">SEO. Продвижение сайтов в ТОП 10 Яндекс и Google</h4>
             <p>Узнать стоимость и сроки продвижения ващего сайта</p>
         </div>
@@ -15,7 +17,7 @@
 			<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
         </div>
 
-        <div class="main-block-footer d-flex justify-content-around align-items-baseline flex-wrap">
+        <div class="main-block-footer d-flex justify-content-between align-items-md-baseline flex-wrap">
             <div>
                 <img src="<?php echo get_template_directory_uri() . '/img/seo/seo_limit.png' ?>">
                 <p>Продвижение без <br> ограничений запросов</p>
@@ -24,7 +26,7 @@
                 <img src="<?php echo get_template_directory_uri() . '/img/seo/fix_price.png' ?>">
                 <p>Фиксированная <br>оплата</p>
             </div>
-            <div>
+            <div style="width: 33%">
                 <img src="<?php echo get_template_directory_uri() . '/img/seo/finance_risk.png' ?>">
                 <p>Фиксированные риски <br>в договоре</p>
             </div>
@@ -33,8 +35,8 @@
                 <p>Быстрый результат</p>
             </div>
         </div>
-
     </div>
+
 </div>
 
 <section class="container p-0">
@@ -212,7 +214,8 @@
                 <span>от 30 0000 руб.</span>
             </div>
             <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
-                <p>Продвижение по ключевым запросам, выделенным из семантического ядра, с целью выхода их в ТОП поисковой выдачи</p>
+                <p>Продвижение по ключевым запросам, выделенным из семантического ядра, с целью выхода их в ТОП
+                    поисковой выдачи</p>
 
                 <a class="btn" href="#">заказать</a>
             </div>
@@ -223,7 +226,8 @@
                 <span>от 0,30 руб.</span>
             </div>
             <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
-                <p>Одновременное продвижение по неограниченному списку запросов для увеличения количества целевых посетителей сайта</p>
+                <p>Одновременное продвижение по неограниченному списку запросов для увеличения количества целевых
+                    посетителей сайта</p>
 
                 <a class="btn" href="#">заказать</a>
             </div>
@@ -245,7 +249,8 @@
                 <span>от 25 0000 руб.</span>
             </div>
             <div class="item-tariff-footer d-flex flex-column align-items-center justify-content-between">
-                <p>Самый быстрый способ увеличения количества посетителей сайта, вывод ресурса в ТОП выдачи "Яндекс" и Google</p>
+                <p>Самый быстрый способ увеличения количества посетителей сайта, вывод ресурса в ТОП выдачи "Яндекс" и
+                    Google</p>
 
                 <a class="btn" href="#">заказать</a>
             </div>
@@ -312,7 +317,7 @@
             </figure>
 
 
-            <figure class="figure text-center" style="margin-left: 80px;">
+            <figure class="figure text-center">
                 <img class="figure-img img-fluid"
                      src="<?php echo get_template_directory_uri() . '/img/seo/decrease_seasons.png' ?>">
                 <figcaption class="figure-caption">Снизится зависимость продаж<br>от сезонных колебаний*</figcaption>
@@ -327,7 +332,7 @@
                      src="<?php echo get_template_directory_uri() . '/img/seo/decrease_cost_visit.png' ?>">
                 <figcaption class="figure-caption">Снизится стоимость<br>одного посетителя сайта</figcaption>
             </figure>
-            <figure class="figure text-center" style="padding-right: 122px">
+            <figure class="figure text-center">
                 <img class="figure-img img-fluid"
                      src="<?php echo get_template_directory_uri() . '/img/seo/decrease_cost_invite.png' ?>">
                 <figcaption class="figure-caption">Снизятся затраты на<br>привлечение одного клиента</figcaption>

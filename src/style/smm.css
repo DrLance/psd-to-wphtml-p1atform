@@ -3,10 +3,11 @@
   line-height: 1.2;
 
   & .smm-block {
-    height: 90%;
     background: url("./img/smm/smm_background.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    position: absolute;left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 0.5;
   }
 }
 

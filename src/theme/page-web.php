@@ -2,9 +2,9 @@
 
     <div class="slider-container ">
         <div class="text-center">
-            <div class="main-block container web-block">
-
-                <div class="col-7 offset-3">
+            <div class="web-block"></div>
+            <div class="main-block container">
+                <div class="col-md-7 offset-md-3">
                     <h4 class="pt-3">WEB. Разработка<br>сайтов любой сложности</h4>
                 </div>
 
@@ -14,7 +14,7 @@
 					<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
                 </div>
 
-                <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline flex-wrap">
+                <div class="main-block-footer container-970 d-flex justify-content-between align-items-md-baseline flex-wrap">
                     <div>
                         <img src="<?php echo get_template_directory_uri() . '/img/web/more_15.png' ?>">
                         <p>Более 15 лет<br>работы</p>
@@ -23,7 +23,7 @@
                         <img src="<?php echo get_template_directory_uri() . '/img/web/all_kinds_language.png' ?>">
                         <p>Гарантии<br>результата</p>
                     </div>
-                    <div>
+                    <div style="width: 33%">
                         <img src="<?php echo get_template_directory_uri() . '/img/ppc/system_discount.png' ?>">
                         <p>Гибкая система скидок<br>при комплексной<br>настройке Яндекс.Директа<br>и Google Analytics
                         </p>
@@ -242,22 +242,18 @@
                          src="<?php echo get_template_directory_uri() . '/img/web/recommend_system.png' ?>">
                     <figcaption class="figure-caption">Рекомендация системы<br>администрирование<br>сайтом</figcaption>
                 </figure>
-
-            </div>
-            <div class="cooperation-container margin-top-55 flex-row d-flex align-items-baseline justify-content-center flex-wrap">
-
-                <figure class="figure text-center pr-5">
+                <figure class="figure text-center mt-md-3 w-25">
                     <img class="figure-img img-fluid"
                          src="<?php echo get_template_directory_uri() . '/img/web/think_integration.png' ?>">
                     <figcaption class="figure-caption">Изначально<br>придумываем интеграцию<br>с базами данных</figcaption>
                 </figure>
-                <figure class="figure text-center pr-5 pl-5">
+                <figure class="figure text-center mt-md-3 w-25">
                     <img class="figure-img img-fluid"
                          src="<?php echo get_template_directory_uri() . '/img/web/work_with_all.png' ?>">
                     <figcaption class="figure-caption">Работа со всеми<br>языками<br>программирования</figcaption>
                 </figure>
 
-                <figure class="figure text-center pl-5">
+                <figure class="figure text-center mt-md-3 w-25">
                     <img class="figure-img img-fluid"
                          src="<?php echo get_template_directory_uri() . '/img/web/select_commands.png' ?>">
                     <figcaption class="figure-caption">Выделение<br>команды на проект</figcaption>

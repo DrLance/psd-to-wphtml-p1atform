@@ -1,7 +1,7 @@
 <footer class="footer">
     <section class="container">
         <div class="items row">
-            <div class="col-md-4">
+            <div>
                 <img src="<?php echo get_template_directory_uri(); ?>/img/logo_footer.png">
                 <p class="mt-4">2003 - 2018 P1ATFORM<br>Продвижение и создание сайтов</p>
                 <ul>
@@ -10,7 +10,7 @@
                     <li><a href="">Политика обратки персональных данных</a></li>
                 </ul>
             </div>
-            <div style="width: 12%;margin-left: 15%">
+            <div style="width: 12%;margin-left: 12%">
 
                 <p class="mt-1">УСЛУГИ</p>
                 <ul>
@@ -21,7 +21,7 @@
                     <li><a href="">Реклама</a></li>
                 </ul>
             </div>
-            <div style="width: 10%; margin-left: 3%">
+            <div style="width: 13%; margin-left: 3%">
 
                 <p class="mt-1">КОМПАНИЯ</p>
                 <ul>

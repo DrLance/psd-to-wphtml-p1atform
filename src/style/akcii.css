@@ -52,14 +52,16 @@
 
     & .span-list {
       position: absolute;
-      top: 27%;
+      top: 29%;
       right: 16%;
     }
 
     & .order-develop {
       position: absolute;
       top: 65%;
-      right: 37%;
+      right: 29%;
+      text-shadow: white 1px 1px 0, white -1px -1px 0,
+      white -1px 1px 0, white 1px -1px 0;
     }
 
     & .adaptive {
@@ -71,6 +73,8 @@
         font-size: 1.25rem;
         font-weight: bold;
         color: #ff0404;
+        text-shadow: white 1px 1px 0, white -1px -1px 0,
+        white -1px 1px 0, white 1px -1px 0;
       }
     }
 
@@ -84,7 +88,8 @@
       position: absolute;
       top: 40%;
       left: 58%;
-      width: 100%;
+      font-weight: bold;
+      width: 29%;
 
       & span {
         text-transform: none;

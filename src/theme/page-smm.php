@@ -2,9 +2,10 @@
 
 <div class="slider-container ">
     <div class="text-center">
-        <div class="main-block container pr-0 pl-0 smm-block">
+        <div class="smm-block"></div>
+        <div class="main-block container pr-0 pl-0">
 
-            <div class="col-7 offset-3 ">
+            <div class="col-md-7 offset-md-3">
                 <h4 class="pt-3">SMM. Продвижение в социальный сетях</h4>
                 <p>Узнать стоимость продвижение в социальный сетях</p>
             </div>
@@ -13,7 +14,7 @@
 				<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
             </div>
 
-            <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline">
+            <div class="main-block-footer d-flex justify-content-between align-items-md-baseline flex-wrap">
                 <div>
                     <img src="<?php echo get_template_directory_uri() . '/img/smm/increase_sales.png' ?>">
                     <p>Увеличение<br>роста продаж</p>
@@ -120,15 +121,13 @@
                      src="<?php echo get_template_directory_uri() . '/img/smm/create_content_strategy.png' ?>">
                 <figcaption class="figure-caption">Создание<br>контент-стратегии</figcaption>
             </figure>
-        </div>
-        <div class="cooperation-container margin-top-55 flex-row d-flex align-items-baseline justify-content-between">
 
             <figure class="figure text-center">
                 <img class="figure-img img-fluid"
                      src="<?php echo get_template_directory_uri() . '/img/smm/adv_in_social.png' ?>">
                 <figcaption class="figure-caption">Реклама в<br>социальный сетях</figcaption>
             </figure>
-            <figure class="figure text-center" style="margin-left: 55px">
+            <figure class="figure text-center">
                 <img class="figure-img img-fluid"
                      src="<?php echo get_template_directory_uri() . '/img/smm/work_with_leader.png' ?>">
                 <figcaption class="figure-caption">Работа с<br>лидерами мнений</figcaption>
@@ -153,7 +152,7 @@
 </section>
 
 
-<section class="margin-top-section ">
+<section class="margin-top-section section-smm-tariff">
     <h3 class="text-center page-header-text ">тарифы</h3>
 
     <div class="container-970">
@@ -280,11 +279,10 @@
                 </tr>
                 </tfoot>
             </table>
-
-            <div class="d-flex align-items-center justify-content-center">
-                <div class="form-tariff-container">
-					<?php echo do_shortcode( '[contact-form-7 id="43"]' ); ?>
-                </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="form-tariff-container">
+			    <?php echo do_shortcode( '[contact-form-7 id="43"]' ); ?>
             </div>
         </div>
     </div>

@@ -2,9 +2,9 @@
 
 <div class="slider-container ">
     <div class="text-center">
-        <div class="main-block container pr-0 pl-0 ppc-block">
-
-            <div class="col-7 offset-3">
+        <div class="ppc-block"></div>
+        <div class="main-block container pr-0 pl-0">
+            <div class="col-md-7 offset-md-3">
                 <h4 class="pt-3">PPC. Контекстная реклама</h4>
             </div>
 
@@ -14,7 +14,7 @@
 				<?php echo do_shortcode( '[contact-form-7 id="41" title="Стоимость и продвежение"]' ) ?>
             </div>
 
-            <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline">
+            <div class="main-block-footer container-970 d-flex justify-content-around align-items-baseline flex-wrap">
                 <div>
                     <img src="<?php echo get_template_directory_uri() . '/img/ppc/fast_analyz.png' ?>">
                     <p>Быстрый анализ и<br>подготовка стратегии</p>
@@ -106,7 +106,7 @@
     <h3 class="text-center page-header-text ">эффективность работы</h3>
 
     <div class="container-970 ppc-work-container margin-top-55">
-        <div class="cooperation-container d-flex flex-row justify-content-between flex-wrap ">
+        <div class="cooperation-container d-flex flex-row justify-content-between flex-wrap">
             <div class="item">
                 <p>Подготовка к рекламной кампании</p>
                 <div class="arrow-container">

@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 <div class="slider-container ">
     <div class="text-center">
-        <div class="main-block container mobile-block">
+        <div class="mobile-block"></div>
+        <div class="main-block container">
 
-            <div class="col-7 offset-3">
+            <div class="col-md-7 offset-md-3">
                 <h4 class="pt-3">Mobile. Разработка<br>мобильных приложений</h4>
             </div>
 

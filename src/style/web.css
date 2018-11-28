@@ -1,14 +1,11 @@
 .slider-container {
   & .web-block {
-
     background: url("./img/web/web_background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: absolute;left: 0px; right: 0px; top: 0px; bottom: 0px; opacity: 0.5;
 
-    & div:first-child {
-
-    }
   }
 }
 

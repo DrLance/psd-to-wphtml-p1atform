@@ -82,7 +82,7 @@ $index = 0;
         </div>
     </div>
 
-    <div class="d-flex align-items-baseline justify-content-around container-text mt-md-5">
+    <div class="d-flex align-items-baseline justify-content-around container-text mt-md-5 flex-wrap">
         <div class="text-center">
             <img class="img-fluid mb-3" src="<?php echo get_template_directory_uri(); ?>/img/anyone_form_paid.png">
             <br/>
@@ -327,7 +327,7 @@ $index = 0;
                     заполните форму, и мы свяжемся с вами в течении часа
                 </h4>
             </div>
-            <div class="offset-1 col-md-6">
+            <div class="offset-md-1 col-md-6">
 				<?php echo do_shortcode( '[contact-form-7 id="15" title="Contact form 1"]' ); ?>
             </div>
         </div>
