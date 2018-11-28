@@ -41,7 +41,7 @@
 
 <section class="container p-0">
 
-    <h3 class="text-center page-header-text margin-top-section">как мы работает</h3>
+    <h3 class="text-center page-header-text margin-top-section">как мы работаем</h3>
 
     <div class="we-work-container">
         <div class="d-flex flex-row justify-content-between row-item flex-wrap flex-md-nowrap">
